@@ -1,0 +1,116 @@
+                                                                                                       
+/*EEEEEEEEEEEEEEEEEEEEEE     QQQQQQQQQ     UUUUUUUU     UUUUUUUUIIIIIIIIIIPPPPPPPPPPPPPPPPP   EEEEEEEEEEEEEEEEEEEEEE
+E::::::::::::::::::::E   QQ:::::::::QQ   U::::::U     U::::::UI::::::::IP::::::::::::::::P  E::::::::::::::::::::E
+E::::::::::::::::::::E QQ:::::::::::::QQ U::::::U     U::::::UI::::::::IP::::::PPPPPP:::::P E::::::::::::::::::::E
+EE::::::EEEEEEEEE::::EQ:::::::QQQ:::::::QUU:::::U     U:::::UUII::::::IIPP:::::P     P:::::PEE::::::EEEEEEEEE::::E
+  E:::::E       EEEEEEQ::::::O   Q::::::Q U:::::U     U:::::U   I::::I    P::::P     P:::::P  E:::::E       EEEEEE
+  E:::::E             Q:::::O     Q:::::Q U:::::D     D:::::U   I::::I    P::::P     P:::::P  E:::::E             
+  E::::::EEEEEEEEEE   Q:::::O     Q:::::Q U:::::D     D:::::U   I::::I    P::::PPPPPP:::::P   E::::::EEEEEEEEEE   
+  E:::::::::::::::E   Q:::::O     Q:::::Q U:::::D     D:::::U   I::::I    P:::::::::::::PP    E:::::::::::::::E   
+  E:::::::::::::::E   Q:::::O     Q:::::Q U:::::D     D:::::U   I::::I    P::::PPPPPPPPP      E:::::::::::::::E   
+  E::::::EEEEEEEEEE   Q:::::O     Q:::::Q U:::::D     D:::::U   I::::I    P::::P              E::::::EEEEEEEEEE   
+  E:::::E             Q:::::O  QQQQ:::::Q U:::::D     D:::::U   I::::I    P::::P              E:::::E             
+  E:::::E       EEEEEEQ::::::O Q::::::::Q U::::::U   U::::::U   I::::I    P::::P              E:::::E       EEEEEE
+EE::::::EEEEEEEE:::::EQ:::::::QQ::::::::Q U:::::::UUU:::::::U II::::::IIPP::::::PP          EE::::::EEEEEEEE:::::E
+E::::::::::::::::::::E QQ::::::::::::::Q   UU:::::::::::::UU  I::::::::IP::::::::P          E::::::::::::::::::::E
+E::::::::::::::::::::E   QQ:::::::::::Q      UU:::::::::UU    I::::::::IP::::::::P          E::::::::::::::::::::E
+EEEEEEEEEEEEEEEEEEEEEE     QQQQQQQQ::::QQ      UUUUUUUUU      IIIIIIIIIIPPPPPPPPPP          EEEEEEEEEEEEEEEEEEEEEE
+                                   Q:::::Q                                                                        
+                                    QQQQQQ        */                                                                
+                                                                              
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+body {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+}
+
+.parallax {
+
+    /* The image used */
+    background-image: url("../src/img/cover-team3.jpg");
+  
+    /* Set a specific height */
+    height: 400px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+h1 {
+    font-family: 'Bangers', cursive;
+    color: #FA8072;
+}
+
+h2 {
+    font-family: 'Bangers', cursive;
+    color: #CD5C5C;
+
+}
+
+h3 {
+    font-family: "Bangers", cursive ;
+    color: #303030;
+}
+
+p, form {
+    font-family:'Quicksand', sans-serif ;
+    color: #303030;
+
+}
+
+
+.quote {
+    font-style: italic, bold;
+}
+
+.title-background {
+    background-color: rgba(24,24,24, 0.8);
+    border-radius: 5px;
+    padding: 10px 15px 10px 15px;
+}
+
+.team-players {
+    text-align: center;
+}
+
+
+.profile-image {
+
+    border: none;
+    width: 100%;
+    height: 50%;
+    
+}
+
+/* div {
+    border: 3px red dashed;
+} */
+
+.partition {
+    border-top : solid 0.5px #303030;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.box-michael, .box-therese, .box-richard {
+    padding-top: 5%;
+}
+
+.join-us {
+    padding-top: 5%;
+    text-align: center;
+}
