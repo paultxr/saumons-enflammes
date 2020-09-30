@@ -8,6 +8,12 @@
 <body>
     <h1>Les Saumons Enflammés en live :</h1>
 
+
+    <div>
+    <p>Retrouvez nos lives Twitch et toutes les vidéos de nos performances sur cette page. Laissez-nous vos commentaires.</p>
+    <p>Carpe Diem</p>
+
+    </div>
     <!-- Add a placeholder for the Twitch embed -->
     <div id="twitch-embed"></div>
 
