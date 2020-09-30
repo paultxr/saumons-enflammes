@@ -1,0 +1,118 @@
+/* ------------------------------- footer style -----------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+footer{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+footer div{
+    padding-bottom: 2%;
+}
+.footerPart{
+    background: rgb(66, 66, 66);
+    padding-top: 1em;
+    padding-bottom: 1.6em;
+    
+}
+.footerReseaux{
+    display: flex;
+    width: 100%;
+    background-color: rgb(85, 39, 39);
+    padding-top: 1em;
+}
+
+.footerReseaux div{
+    width: 33%;
+    margin-right: 0;
+}
+
+.footerReseaux div a i{
+    text-decoration: none;
+    color:wheat;
+    font-size: 2em;
+}
+
+.footerReseaux div a i:hover{
+    color: rgb(66, 66, 66);
+}
+.footerContact{
+    background-color: rgb(85, 39, 39);
+}
+
+.footerContact a{
+    text-decoration: none;
+    color:wheat;
+}
+.footerContact a:hover{
+    color: rgb(66, 66, 66);
+}
+.footerPart p{
+    font-size: 1.3em;
+}
+
+.footerPart p,ul li{
+    margin: 2%;
+    list-style-type: none ;
+    color:wheat;
+}
+.footerPart ul li a{
+    text-decoration: none;
+    color:wheat;
+}
+
+.footerPart ul li a:hover{
+    color: rgb(85, 39, 39);
+}
+
+.footerPart p,.footerPart ul li, .footerContact .versContact{
+    font-weight: bold;
+}
+.footerContact .versMention{
+    font-size: small;
+}
+
+/*375*/
+@media screen and (min-width: 376px){
+/*------------------------------------ Footer Desktop ------------------------------*/
+    footer{
+        display: flex;
+        width: 100%;
+        background: linear-gradient(130deg, rgb(66, 66, 66) 40%, rgb(85, 39, 39) 40%);
+    }
+    .footerPart{
+        width: 40%;
+        background-color: transparent;
+    }
+    .footerPart ul{
+        display: flex;
+    }
+    .footerPart ul li{
+        width: 60%;
+    }
+    .footerReseaux{
+        width: 25%;
+        padding-left: 4em;
+        padding-top: 3.6em;
+        background-color: transparent;
+    }
+    .footerContact{
+        width: 33%;
+        padding-top: 3.4em;
+        background-color: transparent;
+    }
+    .footerContact .versContact{
+        padding-bottom: 0.2em;
+        font-size: 1.5em;
+    }
+    .footerReseaux .reseauSocial{
+        width: 20%;
+    }
+    .footerReseaux div a i{
+        font-size: 3em;
+    }
+}
