@@ -1,0 +1,55 @@
+    /* Font Title 'Bangers'*/
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+    /* Font Paragraph 'Quicksand'*/
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+    
+
+body {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+p {
+    font-family: 'Quicksand', Arial, sans-serif;
+}
+
+#banner-stream {
+	background: url('../src/img/banner-stream.jpg');
+	background-size: cover;
+    border-radius: 5px;
+    background-attachment: fixed;	
+    background-position: center;	
+    background-repeat: no-repeat;	
+}
+
+#banner {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 15px;
+    height: 400px;
+	box-shadow: 0px 5px 5px #1c1a19;
+	border-radius: 6px;
+}
+
+.banner-title {
+    font-family: 'Bangers', Arial, sans-serif; 
+    border-radius: 5px;
+	padding: 10px 20px 10px 20px;
+	background-color: rgba(24,24,24,0.8);
+	color: #FA8072;
+    font-size: 2em;
+    text-align: center;
+}
+
+#intro-stream {
+    text-align: center;
+    margin: 70px 20px 70px 20px;
+}
+
+
+#carp-icon {
+    height: 25px;
+    width: 25px;
+}

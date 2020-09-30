@@ -3,15 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../src/style.css">
     <title>Document</title>
 </head>
 <body>
-    <h1>Les Saumons Enflammés en live :</h1>
+    <section id="banner-stream">
+        <div id="banner">
+            <h1 class="banner-title">Les Saumons Enflammés : </br> le live</h1>
+        </div>
+    </section>
 
-
-    <div>
+    <div id="intro-stream">
     <p>Retrouvez nos lives Twitch et toutes les vidéos de nos performances sur cette page. Laissez-nous vos commentaires.</p>
-    <p>Carpe Diem</p>
+    <p><img id="carp-icon" src="../src/img/carp-icon.png" alt="Carpe"> Diem</p>
+    
 
     </div>
     <!-- Add a placeholder for the Twitch embed -->
