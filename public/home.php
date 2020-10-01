@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../src/style.css" />
-    <title>Document</title>
+    <title>Fishing Sim World Pro Tour</title>
 </head>
 <body>
   
@@ -22,14 +24,11 @@
         Fishing Sim World dispose de physiques en jeu réalistes et de poissons IA authentiques qui rendront cette expérience aussi immersible que possible.</p>
 
         <p>Vos talents de pêcheur seront mis à l’épreuve tandis que vous explorerez les lacs des USA, situés en Floride et à New-York, 
-        ainsi que 5 lacs européens, tels que celui de Gigantica en France et le Grand Union Canal au Royaume-Uni.</p>
-
-        <p>Traquez les 18 espèces de poissons différentes et collectionnez des centaines d’équipements, y compris des objets de grandes marques 
+        ainsi que 5 lacs européens, tels que celui de Gigantica en France et le Grand Union Canal au Royaume-Uni. Traquez les 18 espèces de poissons différentes et collectionnez des centaines d’équipements, y compris des objets de grandes marques 
         sous licence comme Bass Cat Boats, Rat-L-Trap, Duckett Fishing et Korda. Utilisez le GPS de votre bateau et le sonar pour 
         localiser les bars avant de choisir la bonne technique qui vous permettra de les capturer.</p>
 
-        <p>Grâce à des systèmes IA avancés, les poissons et les types d'espèces ont tous des comportements différents. Ils ne réagiront pas de l
-        a même manière aux températures de l'eau et aux appâts proposés, vous devrez donc faire preuve de stratégie pour attraper vos proies. 
+        <p>Grâce à des systèmes IA avancés, les poissons et les types d'espèces ont tous des comportements différents. Ils ne réagiront pas de la même manière aux températures de l'eau et aux appâts proposés, vous devrez donc faire preuve de stratégie pour attraper vos proies. 
         Pêchez à votre rythme et trouvez l’endroit parfait, puis mettez-vous au défi d’attraper le plus beau poisson.</p>
         </p>
     </section>
@@ -40,25 +39,28 @@
     <!-- Ultimate Fishing Simulator disponible sur Xbox One
     https://www.simulagri.fr/2020/05/ultimate-fishing-simulator-disponible-sur-xbox-one/ -->
     
+    <!--Ultimate Fishing Simulator enchaîne les mises à jour : DLC Amazon River et VR
+    https://www.simulagri.fr/2019/11/ultimate-fishing-simulator-enchaine-les-mises-a-jour-dlc-amazon-river-et-vr/ -->
+
     <!--La pêche en réalité virtuelle, c’est juste dingue !
     https://www.simulagri.fr/2019/09/ultimate-fishing-simulator-vr-la-peche-en-realite-virtuelle-cest-juste-dingue/ -->
 
+    <!-- La pêche à la ligne bientôt en VR sur Ultimate Fishing Simulator
+    https://www.simulagri.fr/2019/08/la-peche-a-la-ligne-bientot-en-vr-sur-ultimate-fishing-simulator/ -->
 
-        <div class="bloc-container">
-            
-            <div class="bloc">Voir l'article</div>
-            <div class="bloc">Voir l'article</div>
-            <div class="bloc">voir l'article</div>
-            <div class="bloc">Voir l'article</div>
+        <div class="cards">
+        <div class="card">
+            <div class="card-header">
+            <div class="card-img"></div>
+            <div class="card-body">
+                <h4 class="card-title">Ultimate Fishing Simulator disponible sur Xbox One</h4>
+                <button class="card-button">Voir l'article</button>
+            </div>
+            </div>
+        </div>
         </div>
 
-        <a href="#" class="btn btn-article">Voir l'article</a>
-        <a href="#" class="btn btn-article">Voir l'article</a>
-        <a href="#" class="btn btn-article">Voir l'article</a>
-        <a href="#" class="btn btn-article">Voir l'article</a>
-    
-
     </section>
-  
+  <script src="../src/script.js"></script>
 </body>
 </html>

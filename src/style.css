@@ -1,7 +1,34 @@
+:root{
+    --main-color: #FA8072;
+    --secondary-color: #CD5C5C;
+    --third-color: black; 
+    --lightblue: lightblue;
+
+    --main-font: 'Bangers';
+    --secondary-font: 'Quicksand';
+}
+
 body{
     margin: 0;
     padding: 0;
+    font-family: var(--secondary-font);
 }
+
+h1{
+    color: var(--main-color);
+    font-family: var(--main-font);
+}
+
+h2, h3{
+    color: var(--secondary-color);
+    font-family: var(--main-font);
+}
+
+section{
+    padding: 30px;
+    text-align: justify;
+}
+
 /* Home */
 
 .header{
@@ -9,34 +36,45 @@ body{
 }
 
 .video-background{
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
+    width: 100%;
+    height: 100%;
 }
 
-.bloc-container{
-    display: grid;
-    grid-template-columns: repeat(auto-fill,300px);
-    grid-template-rows: repeat(4, 350px);
-    grid-gap: 10px;
-    justify-content: space-around;
-}
-
-.bloc{
-    background-color: floralwhite;
-    border: 2px solid #010101;
-}
-
-.btn{
-    border:1px solid coral;
-    text-decoration: none;
-}
-
-.btn-article{
-    background: coral;
-}
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+.card {
+    border-radius: 10px;
+    width: 200px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+.card-img {
+    border-radius: 10px 10px 0 0;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../src/img/Xbox.jpg);
+    height: 200px;
+    width: 100%;
+  }
+.card-body {
+    padding: 10px 20px;
+  }
+.card-body h4 {
+    margin: 10px 0px;
+    text-align: center;
+    font-size: 15px;
+    color: var(--third-color);
+    font-family: var(--secondary-font);
+  }
+.card-button {
+    border: none;
+    border-radius: 10px;
+    height: 50px;
+    background-color: var(--lightblue);
+    width: 100%;
+  }
