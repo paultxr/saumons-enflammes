@@ -3,7 +3,22 @@
 
     /* Font Paragraph 'Quicksand'*/
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
-    
+
+
+/*
+div {
+    border: 2px green dashed;
+}
+*/
+
+
+:root {
+    --main-color: #FA8072;
+    --secondary-color: #CD5C5C;
+    --main-font: 'Bangers';
+    --third-color: black;
+    --secondary-font: 'Quicksand';
+}
 
 body {
     margin-left: 0;
@@ -11,7 +26,7 @@ body {
 }
 
 p {
-    font-family: 'Quicksand', Arial, sans-serif;
+    font-family: var(--secondary-font), Arial, sans-serif;
 }
 
 #banner-stream {
@@ -29,18 +44,23 @@ p {
 	align-items: center;
 	margin-top: 15px;
     height: 400px;
-	box-shadow: 0px 5px 5px #1c1a19;
+	
 	border-radius: 6px;
 }
 
 .banner-title {
-    font-family: 'Bangers', Arial, sans-serif; 
+    font-family: var(--main-font), Arial, sans-serif; 
     border-radius: 5px;
 	padding: 10px 20px 10px 20px;
 	background-color: rgba(24,24,24,0.8);
-	color: #FA8072;
+	color: var(--main-color);
     font-size: 2em;
     text-align: center;
+}
+
+h2 {
+    font-family: var(--main-font), Arial, sans-serif;
+    color: var(--secondary-color);
 }
 
 #intro-stream {
@@ -52,4 +72,8 @@ p {
 #carp-icon {
     height: 25px;
     width: 25px;
+}
+
+#twitch-embed {
+    text-align: center;
 }

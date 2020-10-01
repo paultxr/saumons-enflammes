@@ -14,11 +14,11 @@
     </section>
 
     <div id="intro-stream">
-    <p>Retrouvez nos lives Twitch et toutes les vidéos de nos performances sur cette page. Laissez-nous vos commentaires.</p>
-    <p><img id="carp-icon" src="../src/img/carp-icon.png" alt="Carpe"> Diem</p>
-    
-
+        <h2>Ca va mordre !!</h2>
+        <p>Retrouvez nos lives Twitch de nos compétitions internationales sur cette page. Laissez-nous vos commentaires.</p>
+        <p><img id="carp-icon" src="../src/img/carp-icon.png" alt="Carpe"> Diem</p>
     </div>
+    
     <!-- Add a placeholder for the Twitch embed -->
     <div id="twitch-embed"></div>
 
@@ -28,7 +28,7 @@
      <!-- Create a Twitch.Embed object that will render within the "twitch-embed" root element. -->
     <script type="text/javascript">
       new Twitch.Embed("twitch-embed", {
-        width: "100%",
+        width: "80%",
         height: 480,
         channel: "bigmagumba",
         // only needed if your site is also embedded on embed.example.com and othersite.example.com 
