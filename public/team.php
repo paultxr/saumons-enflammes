@@ -21,7 +21,7 @@
         <article class="box-michael">
 
             <h2>Michael</h2>
-            <div class="quote"><p>"Forever young , profiter de la vie à fond et vivre de passions ! Croire en ses rêves ! Carpe Diem !"</p></div>
+            <div class="quote"><p>"Forever young , profiter de la vie à fond et vivre de passions ! Croire en ses rêves ! Carpe Diem ! Ce qui ne me tue pas me rend plus fort #TeamKenzaFarah"</p></div>
             <img src="../src/img/michael-mobile.jpg" class="profile-image">
             <h3>Spécialités & Palmarès</h3>
             <p>Pêche à la carpe et au gros</p>
@@ -49,7 +49,7 @@
         <article class="box-richard">
 
             <h2>Richard</h2>
-            <div class="quote"><p>"À la base, j'étais sur EuroTruck mais j'avais personne avec qui jouer".</p></div>
+            <div class="quote"><p>"À la base, j'étais sur EuroTruck mais j'avais personne avec qui jouer. Maintenant, j'attrape des poissons gros comme des camions mais je pollue moins. "</p></div>
             <img src="../src/img/richard-mobile.jpg" class="profile-image">
             <h3>Spécialités & Palmarès</h3>
             <p>Pêche à la carpe et au gros</p>
@@ -61,8 +61,8 @@
         <section class="mapping">
 
             <h2>Les coins de pêche que l'on préfère</h2>
-            <p>Clique pour voir le détail des Lacs ! Carpes, truites, brochets, ils sont y sont tous ! </p>
-            <div class="map"><iframe src="https://www.google.com/maps/d/embed?mid=1Hr09jyH42qxuyb1vpmlcEhXUoFEvW_Lj" width="100%" height="480"></iframe></div>
+            <p>Clique pour voir le détail des lacs ! Carpes, truites, brochets, ils sont y sont tous ! </p>
+            <div class="map"><iframe src="https://www.google.com/maps/d/embed?mid=1Hr09jyH42qxuyb1vpmlcEhXUoFEvW_Lj" width="99%" height="480"></iframe></div>
     
         </section>
 
@@ -73,11 +73,11 @@
                 
                 <form action="" method="get" class="form-example">
                     <div class="user-name">
-                      <label for="name">Ton nom: </label>
+                      <label for="name">Ton nom: </label><br>
                       <input type="text" name="name" id="name" required>
                     </div>
                     <div class="user-email">
-                      <label for="email">Ton mail: </label>
+                      <label for="email">Ton mail: </label><br>
                       <input type="email" name="email" id="email" required>
                     </div>
                       <input type="submit" value="Inscris-toi batard !" class="submit-button">
