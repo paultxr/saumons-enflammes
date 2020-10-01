@@ -104,6 +104,7 @@ p, form {
 
 .box-michael, .box-therese, .box-richard {
     padding-top: 5%;
+    background-color: white;
 }
 
 .join-us {
@@ -140,4 +141,14 @@ p, form {
     .join-us {
         background-color: lightgray;
     }
+
+    .parallax {
+        background-position: bottom;
+        height: 500px;
+    }
+
+    .box-michael, .box-richard, .box-therese {
+        margin: 5% 0;
+    }
+    
 }
