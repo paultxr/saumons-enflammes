@@ -20,7 +20,7 @@
         <article class="box-michael">
 
             <h2>Michael</h2>
-            <div class="quote"><p>Forever young , profiter de la vie à fond et vivre de passions ! Croire en ses rêves ! Carpe Diem !.</p></div>
+            <div class="quote"><p>"Forever young , profiter de la vie à fond et vivre de passions ! Croire en ses rêves ! Carpe Diem !"</p></div>
             <img src="../src/img/michael-mobile.jpg" class="profile-image">
             <h3>Spécialités & Palmarès</h3>
             <p>Pêche à la carpe et au gros</p>
@@ -48,11 +48,11 @@
         <article class="box-richard">
 
             <h2>Richard</h2>
-            <div class="quote"><p>"À la base, j'étais sur EuroTruck mais j'avais personne avec qui jouer".</p><div class="quote">
+            <div class="quote"><p>"À la base, j'étais sur EuroTruck mais j'avais personne avec qui jouer".</p></div>
             <img src="../src/img/richard-mobile.jpg" class="profile-image">
             <h3>Spécialités & Palmarès</h3>
             <p>Pêche à la carpe et au gros</p>
-            <p>Disciplines.. .</p>
+            <p>Vice-champion du lac Séminole</p>
 
         </article>
 
@@ -64,20 +64,19 @@
 
         <div class="join-us">
             <h2>Nous rejoindre</h2>
-            <p>On recherche un quatrième joueur ou joueuse pour rejoinre l'équipe. Mentalité compétitive et fortes connaissances en matière de pêche electronique sont recquises</p>
+            <p>On recherche un quatrième joueur ou joueuse pour rejoinre l'équipe. Mentalité compétitive et fortes connaissances en matière de pêche electronique sont recquises !</p>
             <form>
                 
                 <form action="" method="get" class="form-example">
-                    <div class="form-example">
-                      <label for="name">Enter your name: </label>
+                    <div class="user-name">
+                      <label for="name">Ton nom: </label>
                       <input type="text" name="name" id="name" required>
                     </div>
-                    <div class="form-example">
-                      <label for="email">Enter your email: </label>
+                    <div class="user-email">
+                      <label for="email">Ton mail: </label>
                       <input type="email" name="email" id="email" required>
                     </div>
-                    <div class="form-example">
-                      <input type="submit" value="Subscribe!">
+                      <input type="submit" value="Inscris-toi!" class="submit-button">
                     </div>
                   </form>
 
