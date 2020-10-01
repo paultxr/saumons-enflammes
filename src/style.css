@@ -110,6 +110,7 @@ p, form {
 .join-us {
     padding-top: 5%;
     text-align: center;
+    background-color: lightgray;
 }
 
 .user-name, .user-email, .submit-button  {
@@ -125,6 +126,18 @@ p, form {
     font-size: 1.5em;
 }
 
+
+.mapping{ 
+    height: 180px; 
+    width: 100%;
+    margin-bottom: 20%;
+    text-align: center;
+}
+
+.map {
+    margin-bottom: 0;
+}
+
 @media screen and (min-width: 376px) {
 
     .team-players {
@@ -138,10 +151,6 @@ p, form {
         display: none;
     }
 
-    .join-us {
-        background-color: lightgray;
-    }
-
     .parallax {
         background-position: bottom;
         height: 500px;
@@ -152,3 +161,4 @@ p, form {
     }
     
 }
+

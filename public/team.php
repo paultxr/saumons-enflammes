@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="../src/style.css" rel="stylesheet">
+
     <title>Document</title>
 </head>
 <body>
@@ -54,17 +55,20 @@
             <p>Pêche à la carpe et au gros</p>
             <p>Vice-champion du lac Séminole</p>
 
-        </article>
 
-        <div class="partition"></div>
+        </section>
 
-        </article>
+        <section class="mapping">
 
+            <h2>Les coins de pêche que l'on préfère</h2>
+            <p>Clique pour voir le détail des Lacs ! Carpes, truites, brochets, ils sont y sont tous ! </p>
+            <div class="map"><iframe src="https://www.google.com/maps/d/embed?mid=1Hr09jyH42qxuyb1vpmlcEhXUoFEvW_Lj" width="100%" height="480"></iframe></div>
+    
         </section>
 
         <div class="join-us">
             <h2>Nous rejoindre</h2>
-            <p>On recherche un quatrième joueur ou joueuse pour rejoinre l'équipe. Mentalité compétitive et fortes connaissances en matière de pêche electronique sont recquises !</p>
+            <p>On recherche un quatrième joueur ou joueuse pour rejoinre l'équipe. <br> Mentalité compétitive et fortes connaissances en matière de pêche electronique sont recquises !</p>
             <form>
                 
                 <form action="" method="get" class="form-example">
@@ -76,7 +80,7 @@
                       <label for="email">Ton mail: </label>
                       <input type="email" name="email" id="email" required>
                     </div>
-                      <input type="submit" value="Inscris-toi!" class="submit-button">
+                      <input type="submit" value="Inscris-toi batard !" class="submit-button">
                     </div>
                   </form>
 
