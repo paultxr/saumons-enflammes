@@ -1,0 +1,290 @@
+/*EEEEEEEEEEEEEEEEEEEEEE     QQQQQQQQQ     UUUUUUUU     UUUUUUUUIIIIIIIIIIPPPPPPPPPPPPPPPPP   EEEEEEEEEEEEEEEEEEEEEE
+E::::::::::::::::::::E   QQ:::::::::QQ   U::::::U     U::::::UI::::::::IP::::::::::::::::P  E::::::::::::::::::::E
+E::::::::::::::::::::E QQ:::::::::::::QQ U::::::U     U::::::UI::::::::IP::::::PPPPPP:::::P E::::::::::::::::::::E
+EE::::::EEEEEEEEE::::EQ:::::::QQQ:::::::QUU:::::U     U:::::UUII::::::IIPP:::::P     P:::::PEE::::::EEEEEEEEE::::E
+  E:::::E       EEEEEEQ::::::O   Q::::::Q U:::::U     U:::::U   I::::I    P::::P     P:::::P  E:::::E       EEEEEE
+  E:::::E             Q:::::O     Q:::::Q U:::::D     D:::::U   I::::I    P::::P     P:::::P  E:::::E             
+  E::::::EEEEEEEEEE   Q:::::O     Q:::::Q U:::::D     D:::::U   I::::I    P::::PPPPPP:::::P   E::::::EEEEEEEEEE   
+  E:::::::::::::::E   Q:::::O     Q:::::Q U:::::D     D:::::U   I::::I    P:::::::::::::PP    E:::::::::::::::E   
+  E:::::::::::::::E   Q:::::O     Q:::::Q U:::::D     D:::::U   I::::I    P::::PPPPPPPPP      E:::::::::::::::E   
+  E::::::EEEEEEEEEE   Q:::::O     Q:::::Q U:::::D     D:::::U   I::::I    P::::P              E::::::EEEEEEEEEE   
+  E:::::E             Q:::::O  QQQQ:::::Q U:::::D     D:::::U   I::::I    P::::P              E:::::E             
+  E:::::E       EEEEEEQ::::::O Q::::::::Q U::::::U   U::::::U   I::::I    P::::P              E:::::E       EEEEEE
+EE::::::EEEEEEEE:::::EQ:::::::QQ::::::::Q U:::::::UUU:::::::U II::::::IIPP::::::PP          EE::::::EEEEEEEE:::::E
+E::::::::::::::::::::E QQ::::::::::::::Q   UU:::::::::::::UU  I::::::::IP::::::::P          E::::::::::::::::::::E
+E::::::::::::::::::::E   QQ:::::::::::Q      UU:::::::::UU    I::::::::IP::::::::P          E::::::::::::::::::::E
+EEEEEEEEEEEEEEEEEEEEEE     QQQQQQQQ::::QQ      UUUUUUUUU      IIIIIIIIIIPPPPPPPPPP          EEEEEEEEEEEEEEEEEEEEEE
+                                   Q:::::Q                                                                        
+                                    QQQQQQ        */                                                                
+                                                                              
+
+
+
+                                    @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+                                    @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+                                    
+                                    body {
+                                        
+                                    }
+                                    
+                                    .parallax {
+                                    
+                                        /* The image used */
+                                        background-image: url("../src/img/cover-team3.jpg");
+                                      
+                                        /* Set a specific height */
+                                        height: 400px;
+                                      
+                                        /* Create the parallax scrolling effect */
+                                        background-attachment: fixed;
+                                        background-position: center;
+                                        background-repeat: no-repeat;
+                                        background-size: cover;
+                                    
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                      }
+                                      
+                                    
+                                    h1 {
+                                        font-family: 'Bangers', cursive;
+                                        color: #FA8072;
+                                    }
+                                    
+                                    h2 {
+                                        font-family: 'Bangers', cursive;
+                                        color: #CD5C5C;
+                                    
+                                    }
+                                    
+                                    h3 {
+                                        font-family: "Bangers", cursive ;
+                                        color: #303030;
+                                    }
+                                    
+                                    p, form {
+                                        font-family:'Quicksand', sans-serif ;
+                                        color: #303030;
+                                    
+                                    }
+                                    
+                                    
+                                    .quote {
+                                        font-style: italic, bold;
+                                    }
+                                    
+                                    .title-background {
+                                        background-color: rgba(24,24,24, 0.8);
+                                        border-radius: 5px;
+                                        padding: 10px 15px 10px 15px;
+                                    }
+                                    
+                                    .team-players {
+                                        text-align: center;
+                                    }
+                                    
+                                    
+                                    .profile-image {
+                                    
+                                        border: none;
+                                        width: 100%;
+                                        height: 50%;
+                                        
+                                    }
+                                    
+                                    /* div {
+                                        border: 3px red dashed;
+                                    } */
+                                    
+                                    .partition {
+                                        border-top : solid 0.5px #303030;
+                                        margin-left: 20%;
+                                        margin-right: 20%;
+                                    }
+                                    
+                                    .box-michael, .box-therese, .box-richard {
+                                        padding-top: 5%;
+                                    }
+                                    
+                                    .join-us {
+                                        padding-top: 5%;
+                                        text-align: center;
+                                    }
+                                    
+H:::::::H     H:::::::HE::::::::::::::::::::E              A:::A              D::::::::::::DDD     E::::::::::::::::::::ER::::::::::::::::R  
+H:::::::H     H:::::::HE::::::::::::::::::::E             A:::::A             D:::::::::::::::DD   E::::::::::::::::::::ER::::::RRRRRR:::::R 
+HH::::::H     H::::::HHEE::::::EEEEEEEEE::::E            A:::::::A            DDD:::::DDDDD:::::D  EE::::::EEEEEEEEE::::ERR:::::R     R:::::R
+H:::::H     H:::::H    E:::::E       EEEEEE           A:::::::::A             D:::::D    D:::::D   E:::::E       EEEEEE  R::::R     R:::::R
+HHHHHHHHH     HHHHHHHHHEEEEEEEEEEEEEEEEEEEEEE               AAA               DDDDDDDDDDDDD        EEEEEEEEEEEEEEEEEEEEEERRRRRRRRRRRRRRRRR   
+    H:::::H     H:::::H    E:::::E                       A:::::A:::::A            D:::::D     D:::::D  E:::::E               R::::R     R:::::R
+    H::::::HHHHH::::::H    E::::::EEEEEEEEEE            A:::::A A:::::A           D:::::D     D:::::D  E::::::EEEEEEEEEE     R::::RRRRRR:::::R 
+    H:::::::::::::::::H    E:::::::::::::::E           A:::::A   A:::::A          D:::::D     D:::::D  E:::::::::::::::E     R:::::::::::::RR  
+    H:::::::::::::::::H    E:::::::::::::::E          A:::::A     A:::::A         D:::::D     D:::::D  E:::::::::::::::E     R::::RRRRRR:::::R 
+    H::::::HHHHH::::::H    E::::::EEEEEEEEEE         A:::::AAAAAAAAA:::::A        D:::::D     D:::::D  E::::::EEEEEEEEEE     R::::R     R:::::R
+    H:::::H     H:::::H    E:::::E                  A:::::::::::::::::::::A       D:::::D     D:::::D  E:::::E               R::::R     R:::::R
+    H:::::H     H:::::H    E:::::E       EEEEEE    A:::::AAAAAAAAAAAAA:::::A      D:::::D    D:::::D   E:::::E       EEEEEE  R::::R     R:::::R
+HH::::::H     H::::::HHEE::::::EEEEEEEE:::::E   A:::::A             A:::::A   DDD:::::DDDDD:::::D  EE::::::EEEEEEEE:::::ERR:::::R     R:::::R
+H:::::::H     H:::::::HE::::::::::::::::::::E  A:::::A               A:::::A  D:::::::::::::::DD   E::::::::::::::::::::ER::::::R     R:::::R
+H:::::::H     H:::::::HE::::::::::::::::::::E A:::::A                 A:::::A D::::::::::::DDD     E::::::::::::::::::::ER::::::R     R:::::R
+HHHHHHHHH     HHHHHHHHHEEEEEEEEEEEEEEEEEEEEEEAAAAAAA                   AAAAAAADDDDDDDDDDDDD        EEEEEEEEEEEEEEEEEEEEEERRRRRRRR     RRRRRRR
+                                                                                                                                                                                 
+                                                                                                                                                                                 
+                                                                                                                                                                                 
+                                                                                                                                                                                 
+                                                                                                                                                                                 
+                                                                                                                                                                                 
+                                                                                                                                                                                 
+                                    
+                                    
+                                    
+                                    body{
+                                        font-family: 'PT Sans',sans-serif;
+                                        background-color: #ffffff;
+                                        margin-left: 0;
+                                        margin-right: 0;
+                                        margin-top: 0;
+                                    }
+                                    #menu{
+                                        width: 35px;
+                                        height: 50px;
+                                        margin: 30px 0 20px 20px;
+                                        cursor: pointer;
+                                    }
+                                    .bar{
+                                        height: 5px;
+                                        width: 100%;
+                                        background-color: #ff6a7d;
+                                        display: block;
+                                        border-radius: 5px;
+                                        transition: 0.3s ease;
+                                    }
+                                    #bar1{
+                                        transform: translateY(-4px);
+                                    }
+                                    #bar3{
+                                        transform: translateY(4px);
+                                    }
+                                    .nav li a{
+                                        font-size: 25px;
+                                        color: #fff;
+                                        text-decoration: none;
+                                    }
+                                    .nav li a:hover{
+                                        font-weight: bold;
+                                    }
+                                    .nav li{
+                                        list-style: none;
+                                        padding: 20px 0;
+                                    }
+                                    .nav{
+                                        padding: 0;
+                                        margin: 0 20px;
+                                        transition: 0.3s ease;
+                                        display: none;
+                                    }
+                                    .menu-bg, #menu-bar{
+                                        top: 0;
+                                        left: 0;
+                                        position: absolute;
+                                    }
+                                    .menu-bg{
+                                        z-index: 1;
+                                        width: 0;
+                                        height: 0;
+                                        margin: 30px 0 20px 20px;
+                                        background: radial-gradient(circle,#ff6068,rgb(247, 112, 112));
+                                        border-radius: 50%;
+                                        transition: 0.3s ease;
+                                    }
+                                    #menu-bar{
+                                        z-index: 2;	
+                                    }
+                                    .change-bg{
+                                        width: 750px;
+                                        height: 740px;
+                                        transform: translate(-60%,-30%);
+                                    }
+                                    .change .bar{
+                                        background-color: white;
+                                    }
+                                    .change #bar1{
+                                        transform: translateY(4px) rotateZ(-45deg);
+                                    }
+                                    .change #bar3{
+                                        transform: translateY(-6px) rotate(45deg);
+                                    }
+                                    .change #bar2{
+                                        opacity: 0;
+                                    }
+                                    .change{
+                                        display: block;
+                                    }
+                                    
+                                    
+                                    @media screen and (min-width:768px) {
+                                        body{
+                                            font-family: 'PT Sans',sans-serif;
+                                            background-color: #ffffff;
+                                            
+                                        }
+                                        .bar #bar3 #bar1{
+                                            display:none
+                                        }
+                                        #menu{
+                                            display: none;
+                                        }
+                                        
+                                        .nav li a{
+                                            color: #fff;
+                                            text-decoration: none;
+                                            font-size: 20px;
+                                            font-weight: bold;
+                                    
+                                        }
+                                        .nav li a:hover{
+                                            background-color: transparent;
+                                            font-weight: bold;
+                                        }
+                                        .nav li{
+                                            list-style: none;
+                                            padding: 10px ;
+                                            display: flex;
+                                        
+                                    
+                                        }
+                                        #nav{
+                                            display: flex;
+                                        
+                                    
+                                        }
+                                        .nav{
+                                            
+                                            margin-right: 5px;	
+                                            display: flex;
+                                            justify-content: flex-end;	
+                                            align-items: center;
+                                            
+                                            
+                                        }
+                                        #menu .menu-bg{
+                                            display: none;
+                                        }
+                                    
+                                        
+                                        #menu-bar{
+                                            width: 100%;
+                                            height: 65px;
+                                            background-color: rgb(242, 112, 112);
+                                            opacity: 0.7;
+                                            
+                                            
+                                        }
+                                        .change .change-bg .change .bar .change #bar1 .change #bar3 .change #bar2{
+                                            
+                                            display: none;
+                                        }
+                                    
+                                    
+                                    }
+                                    
