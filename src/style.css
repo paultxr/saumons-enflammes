@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+
+
+
+body {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+}
+
+                                    /* COVER EN PARALLAX AVEC TITRE */
+
+.parallax {
+
+    /* The image used */
+    background-image: url("../src/img/cover-team3.jpg");
+  
+    /* Set a specific height */
+    height: 400px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
