@@ -10,7 +10,7 @@ body {
                                     
                                                                         /* COVER EN PARALLAX AVEC TITRE */
                                     
-    .parallax {
+    .parallax-boutique {
                                     
         /* The image used */
         background-image: url("../src/img/cover-shop6.jpg");
@@ -73,4 +73,22 @@ body {
                 }                       
       }
                                     
+                            /* GRIDS ET BOX MODELS */
+
+.shopping-content {
+  text-align: center;
+  margin-top: 5%;
+}
+
+                                    
+.shopping {
+    width: 100%;
+    height: 50%;
+                                        
+    }
+
+.shopping-img {
+    border-radius: 15px;
+    border: solid 1px black;
+}
                                     
