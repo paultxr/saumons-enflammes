@@ -21,8 +21,8 @@
     <div class="footerReseaux">
         <div class="reseauSocial">
         <a href="#" alt="notre Facebook"><i class="fab fa-facebook-square"></i></a>
-            
         </div>
+    
         <div class="reseauSocial">
         <a href="#" alt="notre twitter"><i class="fab fa-twitter-square"></i></a>
             

@@ -76,6 +76,78 @@ footer div{
     font-size: small;
 }
 
+/*----------------------------------- Contact --------------------------------------*/
+.contactForm form{
+    text-align: center;
+}
+.contactForm form{
+    padding-top: 3em;
+}
+.parallaxContact{
+    /* The image used */
+    background-image: url("../src/img/pecheur-contact.gif");        /* Set a specific height */
+    height: 400px;        /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;        display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactForm .contactTitle{
+    background-color: rgba(24,24,24, 0.8);
+        border-radius: 5px;
+        padding: 10px 15px 10px 15px;
+}
+.contactForm div h1{
+    text-align: center;
+    color: #FA8072;
+    font-family: "Bangers", cursive;
+}
+.contactForm form .button button{
+    font-size: 1.5em;
+}
+.contactForm form div{
+    margin-top: 1em;
+    font-family: "Bangers", cursive;
+}
+
+.contactForm form textarea, .contactForm form input{
+    width : 90%;
+    margin: 0;
+    border-radius: 0px;
+    box-shadow: none;
+  
+    -webkit-box-sizing: border-box; 
+       -moz-box-sizing: border-box; 
+            box-sizing: border-box;
+  }
+
+  .contactForm form input{
+    height: 2em;
+  }
+
+  .contactForm .button button {
+    margin: 2%;
+    font-family: "Bangers", cursive;
+    color: white;
+    background-color:#303030;
+    padding: 2px 10px;
+    font-size: 1.5em;
+  }
+
+  .contactForm .button button:hover{
+      background-color: rgb(85, 39, 39);
+  }
+
+  .contactForm label{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+
+  }
+
 /*375*/
 @media screen and (min-width: 376px){
 /*------------------------------------ Footer Desktop ------------------------------*/
@@ -115,4 +187,30 @@ footer div{
     .footerReseaux div a i{
         font-size: 3em;
     }
+
+
+/*----------------------------------- Contact Desktop --------------------------------------*/
+
+    .contactForm form textarea, .contactForm form input{
+        width : 40%;
+    }
+    .contactForm form label{
+        font-size: 1.5em;
+    }
+    .contactForm div h1{
+        font-family: "Bangers", cursive;
+    }
+
+    .parallaxContact{
+        /* The image used */
+        background-image: url("../src/img/pecheur-contact-desktop.gif");        /* Set a specific height */
+        height: 400px;        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: cover;        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
 }
