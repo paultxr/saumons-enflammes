@@ -13,6 +13,11 @@
     <header>
         <video autoplay loop muted class="video-background">
             <source src="../src/img/Video.mp4" type="video/mp4">
+            
+            <!-- Pour afficher la vidéo dans tous les navigateurs-->
+            <source src="" type="video/ogg">
+            <source src="" type="video/webm">
+            
         </video>
     </header>
      
@@ -36,25 +41,13 @@
     <section>
         <h2>Dernières news</h2>
 
-    <!-- Ultimate Fishing Simulator disponible sur Xbox One
-    https://www.simulagri.fr/2020/05/ultimate-fishing-simulator-disponible-sur-xbox-one/ -->
-    
-    <!--Ultimate Fishing Simulator enchaîne les mises à jour : DLC Amazon River et VR
-    https://www.simulagri.fr/2019/11/ultimate-fishing-simulator-enchaine-les-mises-a-jour-dlc-amazon-river-et-vr/ -->
-
-    <!--La pêche en réalité virtuelle, c’est juste dingue !
-    https://www.simulagri.fr/2019/09/ultimate-fishing-simulator-vr-la-peche-en-realite-virtuelle-cest-juste-dingue/ -->
-
-    <!-- La pêche à la ligne bientôt en VR sur Ultimate Fishing Simulator
-    https://www.simulagri.fr/2019/08/la-peche-a-la-ligne-bientot-en-vr-sur-ultimate-fishing-simulator/ -->
-
         <div class="cards">
         <div class="card">
             <div class="card-header">
             <div class="card-img"></div>
             <div class="card-body">
                 <h4 class="card-title">Ultimate Fishing Simulator disponible sur Xbox One</h4>
-                <button class="card-button">Voir l'article</button>
+                <a class="card-link" href="https://www.simulagri.fr/2020/05/ultimate-fishing-simulator-disponible-sur-xbox-one/"><button class="card-button">Voir l'article</button></a>
             </div>
             </div>
         </div>
