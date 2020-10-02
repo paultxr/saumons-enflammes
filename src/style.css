@@ -213,4 +213,8 @@ footer div{
         align-items: center;
     }
 
+    .contactForm form .button button{
+        font-size: 2em;
+    }
+
 }
