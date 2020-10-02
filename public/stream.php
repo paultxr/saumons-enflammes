@@ -15,7 +15,7 @@
 
     <div id="intro-stream">
         <h2>Ca va mordre !!</h2>
-        <p>Retrouvez nos lives Twitch de nos compétitions internationales sur cette page. Laissez-nous vos commentaires.</p>
+        <p>Retrouvez les lives Twitch de nos compétitions internationales sur cette page. Laissez-nous vos commentaires.</p>
         <p><img id="carp-icon" src="../src/img/carp-icon.png" alt="Carpe"> Diem</p>
     </div>
     

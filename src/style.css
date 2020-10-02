@@ -4,6 +4,10 @@
     /* Font Paragraph 'Quicksand'*/
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
+:root {
+    --margin-top-bann: 10px;
+    --margin-bot-bann: 70px;
+}
 
 /*
 div {
@@ -23,10 +27,12 @@ div {
 body {
     margin-left: 0;
     margin-right: 0;
+    margin-top: 0;
 }
 
 p {
     font-family: var(--secondary-font), Arial, sans-serif;
+    font-size: 1em;
 }
 
 #banner-stream {
@@ -36,15 +42,15 @@ p {
     background-attachment: fixed;	
     background-position: center;	
     background-repeat: no-repeat;	
+    margin-top: var(--margin-top-bann);
+    margin-bottom: var(--margin-bot-bann);
 }
 
 #banner {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin-top: 15px;
     height: 400px;
-	
 	border-radius: 6px;
 }
 
