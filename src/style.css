@@ -1,63 +1,76 @@
 @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
-
-
-
+                                    
 
 body {
     margin-left: 0;
     margin-right: 0;
     margin-top: 0;
-}
+    }
+                                    
+                                                                        /* COVER EN PARALLAX AVEC TITRE */
+                                    
+    .parallax {
+                                    
+        /* The image used */
+        background-image: url("../src/img/cover-shop6.jpg");
+                                      
+        /* Set a specific height */
+        height: 400px;
+                                      
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+                                    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+                                      
+    /* POLICES DE TITRES ET DE PARAGRAPHES */
+                                    
+    h1 {
+        font-family: 'Bangers', cursive;
+        color: #FA8072;
+                                    }
+                                    
+    h2 {
+        font-family: 'Bangers', cursive;
+        color: #CD5C5C;
+                                    
+        }
+                                    
+    h3 {
+        font-family: "Bangers", cursive ;
+        color: #303030;
+                                    }
+                                    
+    p, form {
+        font-family:'Quicksand', sans-serif ;
+        color: #303030;
+                                    
+            }
+                                                              
+    .quote {
+        font-style: italic;
+                                    }
+                                    
+    .title-background {
+        background-color: rgba(24,24,24, 0.8);
+        border-radius: 5px;
+        padding: 10px 15px 10px 15px;
+        }
+                            
 
-                                    /* COVER EN PARALLAX AVEC TITRE */
+    @media screen and (min-width: 376px) {
+                                    
 
-.parallax {
-
-    /* The image used */
-    background-image: url("../src/img/cover-shop3.jpg");
-  
-    /* Set a specific height */
-    height: 400px;
-  
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; }
-
-                                 /* POLICES DE TITRES ET DE PARAGRAPHES */
-
-h1 {
-    font-family: 'Bangers', cursive;
-    color: #FA8072;
-}
-
-h2 {
-    font-family: 'Bangers', cursive;
-    color: #CD5C5C;
-
-}
-
-h3 {
-    font-family: "Bangers", cursive ;
-    color: #303030;
-}
-
-p, form {
-    font-family:'Quicksand', sans-serif ;
-    color: #303030;
-
-}
-
-
-.quote {
-    font-style: italic;
-}
-
-.title-background {
-    background-color: rgba(24,24,24, 0.8);
-    border-radius: 5px;
-    padding: 10px 15px 10px 15px;
-}
-
+     .parallax {
+        background-position: bottom;
+        height: 500px;
+                }                       
+      }
+                                    
+                                    

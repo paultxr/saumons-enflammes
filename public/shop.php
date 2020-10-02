@@ -10,8 +10,26 @@
 
     <div class="parallax">
 
-        <div class=title-background><h1>L'équipe des saumons</h1></div>
+        <div class=title-background><h1>La poissonnerie</h1></div>
 
     </div>
+
+    <section >
+
+        <div class="filter">FILTER</div> 
+
+        <div class="shopping">
+            <article><img src=""></article>
+            <article><img src=""></article>
+            <article><img src=""></article>
+            <article><img src=""></article>
+            <article><img src=""></article>
+            <article><img src=""></article>
+            <article><img src=""></article>
+            <article><img src=""></article>
+            <article><img src=""></article>
+        </div>
+
+    </section>
 </body>
 </html>
