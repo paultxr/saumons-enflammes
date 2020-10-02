@@ -24,4 +24,40 @@ body {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; }
+
+                                 /* POLICES DE TITRES ET DE PARAGRAPHES */
+
+h1 {
+    font-family: 'Bangers', cursive;
+    color: #FA8072;
+}
+
+h2 {
+    font-family: 'Bangers', cursive;
+    color: #CD5C5C;
+
+}
+
+h3 {
+    font-family: "Bangers", cursive ;
+    color: #303030;
+}
+
+p, form {
+    font-family:'Quicksand', sans-serif ;
+    color: #303030;
+
+}
+
+
+.quote {
+    font-style: italic;
+}
+
+.title-background {
+    background-color: rgba(24,24,24, 0.8);
+    border-radius: 5px;
+    padding: 10px 15px 10px 15px;
+}
+
