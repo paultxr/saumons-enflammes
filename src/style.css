@@ -24,6 +24,9 @@ EEEEEEEEEEEEEEEEEEEEEE     QQQQQQQQ::::QQ      UUUUUUUUU      IIIIIIIIIIPPPPPPPP
 @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
 
+
+
+
 body {
     margin-left: 0;
     margin-right: 0;
@@ -111,7 +114,21 @@ p, form {
 .box-michael, .box-therese, .box-richard {
     padding-top: 5%;
     background-color: white;
+    /*transition: .5s;
+    animation: slidein 3s;*/
 }
+
+/*@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }*/
 
                                             /* FORMULAIRE */
 
