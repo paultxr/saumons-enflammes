@@ -60,14 +60,14 @@
             </article>
 
             <article>
-                <img src="../src/img/cuvette-océan.jpg" class="shopping-img" alt="fish-toilets" width="80%">
-                <h3>Cuvette Océan</h3>
+                <img src="../src/img/cuvette.jpg" class="shopping-img" alt="fish-toilets" width="80%">
+                <h3>Cuvette qui donne la pêche</h3>
                 <p class="price">13.90 €</p>
             </article>
 
             <article>
-                <img src="../src/img/veste.jpg" class="shopping-img" width=80% alt="jacket">
-                <h3>Véritable veste de pêcheur</h3>
+                <img src="../src/img/poisson-pour-chat.jpg" class="shopping-img" width=80% alt="poisson-pour-chat">
+                <h3>Poisson en plastique pour chat</h3>
                 <p class="price">8.99 €</p>
             </article>
           
