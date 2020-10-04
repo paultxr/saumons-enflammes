@@ -13,14 +13,14 @@ body {
     .parallax-boutique {
                                     
         /* The image used */
-        background-image: url("../src/img/cover-shop6.jpg");
+        background-image: url("../src/img/cover-shop4.jpg");
                                       
         /* Set a specific height */
         height: 400px;
                                       
         /* Create the parallax scrolling effect */
         background-attachment: fixed;
-        background-position: bottom;
+        background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
                                     
@@ -87,8 +87,29 @@ body {
                                         
     }
 
-.shopping-img {
-    border-radius: 15px;
-    border: solid 1px black;
-}
+ article {
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        border-radius: 10px;
+      }
+
                                     
+
+@media screen and (min-width : 376px) {
+    
+    .shopping-content {
+        text-align: center;
+        margin-top: 5%;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 15px;
+        grid-auto-rows: minmax(100px, auto);
+        padding-left: 10%;
+        padding-right: 10%;
+      }    
+      
+      .intro {
+        text-align: center;
+        margin: 5% 10%;  
+      }
+
+}
