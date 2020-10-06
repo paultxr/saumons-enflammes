@@ -1,4 +1,4 @@
-const cards = document.querySelector(".cardEvent");
+const cardEvent = document.querySelector(".cardEvent");
 
 const articles = [
   {
@@ -12,13 +12,8 @@ const articles = [
     picture: "https://www.heypoorplayer.com/wp-content/uploads/2016/11/DBA67C87-804C-4FC9-BB9D-CEC46831116C-18204-000008F60A28B53F_tmp.jpg",
     mytext: "lorem20",
     myLink: "https://www.simulagri.fr/2019/09/ultimate-fishing-simulator-vr-la-peche-en-realite-virtuelle-cest-juste-dingue/"
-},
-  {
-    mytitle: "La pêche à la ligne bientôt en réalité virtuelle !",
-    picture: "https://cdn.pixabay.com/photo/2015/06/04/23/06/fisherman-797980_1280.jpg",
-    mytext: "lorem20", 
-    myLink: "https://www.simulagri.fr/2019/08/la-peche-a-la-ligne-bientot-en-vr-sur-ultimate-fishing-simulator/"
-} 
+}
+
 ];
 
 function createCard(title, imageUrl, linkUrl, texte) {
