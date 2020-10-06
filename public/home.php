@@ -9,8 +9,8 @@
     <title>Fishing Sim World Pro Tour</title>
 </head>
 <body>
-  
-    <header>
+  <?php include('header.php')?>
+    <section class="video-home">
         <video autoplay loop muted class="video-background">
             <source src="../src/img/Video.mp4" type="video/mp4">
             
@@ -19,7 +19,7 @@
             <source src="" type="video/webm">
             
         </video>
-    </header>
+    </section>
      
     <section>
         <h2>Le jeu</h2>
@@ -54,6 +54,7 @@
         </div>
 
     </section>
+    <?php include('footer.php')?>
   <script src="../src/script.js"></script>
 </body>
 </html>

@@ -8,7 +8,7 @@
     <title>L'équipe des saumons</title>
 </head>
 <body>
-
+<?php include('header.php')?>
     <div class="parallax-boutique">
 
         <div class=title-background><h1>La poissonnerie</h1></div>
@@ -117,6 +117,7 @@
         </div>
     
     </section>
+    <?php include('footer.php')?>
  
 </body>
 </html>

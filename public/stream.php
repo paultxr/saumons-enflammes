@@ -7,6 +7,7 @@
     <title>Document</title>
 </head>
 <body>
+<?php include('header.php')?>
     <section id="banner-stream">
         <div id="banner">
             <h1 class="banner-title">Les Saumons Enflammés : </br> le live</h1>
@@ -38,6 +39,6 @@
     </script>
     
     <!-- Embed parameters : https://dev.twitch.tv/docs/embed/everything -->
-
+    <?php include('footer.php')?>
 </body>
 </html>

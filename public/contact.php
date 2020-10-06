@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet"> 
 </head>
 <body class="pageContact">
+<?php include('header.php')?>
     <section class="contactForm">
         <div class="parallaxContact">
             <div class="contactTitle"><h1>Contactez nous </h1></div>
@@ -35,5 +36,6 @@
                 </div>
             </form>
     </section>
+    <?php include('footer.php')?>
 </body>
 </html>

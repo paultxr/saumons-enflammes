@@ -1,6 +1,7 @@
 /*<<<<<<< HEAD*/
 @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@900&display=swap');
 :root{
     --main-color: #FA8072;
     --secondary-color: #CD5C5C;
@@ -31,15 +32,80 @@ p {
     font-family: var(--secondary-font), Arial, sans-serif;
     font-size: 1em;
 }
+/*-------------------------------- header ----------------------------*/
+
+header{
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    height: 120px;
+    z-index: 100;
+    padding-bottom: 100px;
+    box-sizing: border-box;}body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.toggler{
+    display: none;
+}
+.logo{
+    display: flex;
+    margin-left: 16px;}nav ul{
+    position: fixed;
+    width: 100%;
+    height: 20vh;
+    padding: 16px;
+    left :-111%;
+    transition:all 0.5s;
+    list-style: none;
+    background: #FFFFFF
+;
+    margin-top: 10px;
+}nav li{
+    margin-bottom: 16px;
+    margin-left: 16px;
+}nav a{
+    text-decoration: none;
+    color:rgb(230, 69, 69);
+    font-size: 30px;
+    text-shadow: 2px 2px 4px rgba(31, 31, 31, 0.658);
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+nav a:hover,nav a.active{
+    color: #15C6E6;
+    transition: ease-in 0.1s;}.toggler:checked ~ nav ul{
+    transition: all 0.3s;
+    left:-9%;
+}
+#toggler:checked ~ .menu-btn i:before{
+    content:"\f00d";}.menu-btn{
+    position : absolute;
+    font-size: 35px;
+    top: 0;
+    right:0;
+    margin-right:  16px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+
+
 /*-------------------------------- Home ---------------------------- */
 
-.header{
+.video-home{
     height: 100vh;
 }
 
 .video-background{
-    width: 100%;
-    height: 100%;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
 }
 
 .cards {
@@ -178,7 +244,7 @@ footer div{
     font-size: 1.3em;
 }
 
-.footerPart p,ul li{
+.footerPart p, .footerPart ul li{
     margin: 2%;
     list-style-type: none ;
     color:wheat;
@@ -454,6 +520,26 @@ grid-auto-rows: minmax(100px, auto);
 
 /*375*/
 @media screen and (min-width: 376px){
+    /*------------------------------------ header desktop ------------------------------*/
+.menu-btn{
+    display: none;
+}
+header{
+    display: grid;
+    grid-template-columns: 1fr auto minmax(380px, 3fr);    }
+nav{
+    display: flex;
+    grid-column: 3/4;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 30px;    }
+nav ul{
+    all: unset;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;    
+}
+
 /*------------------------------------ Footer Desktop ------------------------------*/
     footer{
         display: flex;
@@ -566,4 +652,8 @@ grid-auto-rows: minmax(100px, auto);
         padding-right: 10%;
         }    
         
+
+
+
+
 }

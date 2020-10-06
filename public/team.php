@@ -8,7 +8,7 @@
     <title>Document</title>
 </head>
 <body>
-
+<?php include('header.php')?>
     <div class="parallax">
 
         <div class=title-background><h1>L'équipe des saumons</h1></div>
@@ -86,6 +86,6 @@
 
             </form>
         </div>
-
+        <?php include('footer.php')?>
 </body>
 </html>
