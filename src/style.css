@@ -1,3 +1,4 @@
+
 /*<<<<<<< HEAD*/
 :root{
     --main-color: #FA8072;
@@ -29,7 +30,7 @@ p {
     font-family: var(--secondary-font), Arial, sans-serif;
     font-size: 1em;
 }
-/* Home */
+/*-------------------------------- Home ---------------------------- */
 
 .header{
     height: 100vh;
@@ -123,5 +124,220 @@ p {
 
 #twitch-embed {
     text-align: center;
+}
+/* ------------------------------- footer style -----------------------------*/
+footer{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+footer div{
+    padding-bottom: 2%;
+}
+.footerPart{
+    background: rgb(66, 66, 66);
+    padding-top: 1em;
+    padding-bottom: 1.6em;
+    
+}
+.footerReseaux{
+    display: flex;
+    width: 100%;
+    background-color: rgb(85, 39, 39);
+    padding-top: 1em;
+}
+
+.footerReseaux div{
+    width: 33%;
+    margin-right: 0;
+}
+
+.footerReseaux div a i{
+    text-decoration: none;
+    color:wheat;
+    font-size: 2em;
+}
+
+.footerReseaux div a i:hover{
+    color: rgb(66, 66, 66);
+}
+.footerContact{
+    background-color: rgb(85, 39, 39);
+}
+
+.footerContact a{
+    text-decoration: none;
+    color:wheat;
+}
+.footerContact a:hover{
+    color: rgb(66, 66, 66);
+}
+.footerPart p{
+    font-size: 1.3em;
+}
+
+.footerPart p,ul li{
+    margin: 2%;
+    list-style-type: none ;
+    color:wheat;
+}
+.footerPart ul li a{
+    text-decoration: none;
+    color:wheat;
+}
+
+.footerPart ul li a:hover{
+    color: rgb(85, 39, 39);
+}
+
+.footerPart p,.footerPart ul li, .footerContact .versContact{
+    font-weight: bold;
+}
+.footerContact .versMention{
+    font-size: small;
+}
+
+/*----------------------------------- Contact --------------------------------------*/
+.contactForm form{
+    text-align: center;
+}
+.contactForm form{
+    padding-top: 3em;
+}
+.parallaxContact{
+    /* The image used */
+    background-image: url("../src/img/pecheur-contact.gif");        /* Set a specific height */
+    height: 400px;        /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;        display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactForm .contactTitle{
+    background-color: rgba(24,24,24, 0.8);
+        border-radius: 5px;
+        padding: 10px 15px 10px 15px;
+}
+.contactForm div h1{
+    text-align: center;
+    color: #FA8072;
+    font-family: "Bangers", cursive;
+}
+.contactForm form .button button{
+    font-size: 1.5em;
+}
+.contactForm form div{
+    margin-top: 1em;
+    font-family: "Bangers", cursive;
+}
+
+.contactForm form textarea, .contactForm form input{
+    width : 90%;
+    margin: 0;
+    border-radius: 0px;
+    box-shadow: none;
+  
+    -webkit-box-sizing: border-box; 
+       -moz-box-sizing: border-box; 
+            box-sizing: border-box;
+  }
+
+  .contactForm form input{
+    height: 2em;
+  }
+
+  .contactForm .button button {
+    margin: 2%;
+    font-family: "Bangers", cursive;
+    color: white;
+    background-color:#303030;
+    padding: 2px 10px;
+    font-size: 1.5em;
+  }
+
+  .contactForm .button button:hover{
+      background-color: rgb(85, 39, 39);
+  }
+
+  .contactForm label{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+
+  }
+
+/*375*/
+@media screen and (min-width: 376px){
+/*------------------------------------ Footer Desktop ------------------------------*/
+    footer{
+        display: flex;
+        width: 100%;
+        background: linear-gradient(130deg, rgb(66, 66, 66) 40%, rgb(85, 39, 39) 40%);
+    }
+    .footerPart{
+        width: 40%;
+        background-color: transparent;
+    }
+    .footerPart ul{
+        display: flex;
+    }
+    .footerPart ul li{
+        width: 60%;
+    }
+    .footerReseaux{
+        width: 25%;
+        padding-left: 4em;
+        padding-top: 3.6em;
+        background-color: transparent;
+    }
+    .footerContact{
+        width: 33%;
+        padding-top: 3.4em;
+        background-color: transparent;
+    }
+    .footerContact .versContact{
+        padding-bottom: 0.2em;
+        font-size: 1.5em;
+    }
+    .footerReseaux .reseauSocial{
+        width: 20%;
+    }
+    .footerReseaux div a i{
+        font-size: 3em;
+    }
+
+
+/*----------------------------------- Contact Desktop --------------------------------------*/
+
+    .contactForm form textarea, .contactForm form input{
+        width : 40%;
+    }
+    .contactForm form label{
+        font-size: 1.5em;
+    }
+    .contactForm div h1{
+        font-family: "Bangers", cursive;
+    }
+
+    .parallaxContact{
+        /* The image used */
+        background-image: url("../src/img/pecheur-contact-desktop.gif");        /* Set a specific height */
+        height: 400px;        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: cover;        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contactForm form .button button{
+        font-size: 2em;
+    }
+
 }
 
