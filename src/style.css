@@ -1,4 +1,6 @@
 /*<<<<<<< HEAD*/
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
 :root{
     --main-color: #FA8072;
     --secondary-color: #CD5C5C;
@@ -176,7 +178,7 @@ footer div{
     font-size: 1.3em;
 }
 
-.footerPart p, .footerPart ul li{
+.footerPart p,ul li{
     margin: 2%;
     list-style-type: none ;
     color:wheat;
@@ -270,10 +272,10 @@ EEEEEEEEEEEEEEEEEEEEEE     QQQQQQQQ::::QQ      UUUUUUUUU      IIIIIIIIIIPPPPPPPP
                                    Q:::::Q                                                                        
                                     QQQQQQ        */                                                                
                                                                               
-
+                                    
 /*-------------------------- mobile team ---------------------------------*/
-@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');*/
 
 
 
@@ -323,6 +325,7 @@ p, form {
 
 .team-players {
     text-align: center;
+    margin: 0% 5%;
 }
 
 
@@ -378,6 +381,75 @@ p, form {
   }
   .mapping {
     text-align: center;
+}
+/*-------------------boutique ------------------------------*/
+.parallax-boutique {        /* The image used */
+    background-image: url("../src/img/cover-shop4.jpg");        /* Set a specific height */
+    height: 400px;        /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;        display: flex;
+    justify-content: center;
+    align-items: center;
+}    
+/* POLICES DE TITRES ET DE PARAGRAPHES */    
+h1 {
+    font-family: 'Bangers', cursive;
+    color: #FA8072;
+}    
+h2 {
+    font-family: 'Bangers', cursive;
+    color: #CD5C5C;        
+}    
+
+h3 {
+    font-family: "Bangers", cursive ;
+    color: #303030;
+}    
+p, form {
+    font-family:'Quicksand', sans-serif ;
+    color: #303030;            
+}    
+.quote {
+    font-style: italic;
+}    
+.title-background {
+    background-color: rgba(24,24,24, 0.8);
+    border-radius: 5px;
+    padding: 10px 15px 10px 15px;
+    }    
+
+                           /* GRIDS ET BOX MODELS */ 
+  
+  form {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+.button-shop {
+    margin: 4%;
+    font-family: "Bangers", cursive;
+    color: white;
+    background-color:#303030;
+    padding: 2px 10px;
+    font-size: 1.5em;
+}
+.shopping, .caddy {
+display: none;
+}
+.intro {
+margin: 5% 5%;
+text-align: center;
+}
+.shopping-content {
+text-align: center;
+margin-top: 5%;
+display: grid;
+grid-template-columns: repeat(1, 1fr);
+grid-gap: 15px;
+grid-auto-rows: minmax(100px, auto);
 }
 
 /*375*/
@@ -458,6 +530,8 @@ p, form {
         grid-gap: 10px;
         grid-auto-rows: minmax(100px, auto);
         margin-top: 2%;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 
     .partition {
@@ -484,6 +558,12 @@ p, form {
     .map {
         margin-bottom: 0;
     }
-    
-}
 
+/*------------------- boutique Desktop ------------------------------*/
+    .shopping-content {
+        grid-template-columns: repeat(4, 1fr);
+        padding-left: 10%;
+        padding-right: 10%;
+        }    
+        
+}
