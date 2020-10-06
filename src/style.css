@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 :root{
     --main-color: #FA8072;
     --secondary-color: #CD5C5C;
@@ -6,12 +7,12 @@
 
     --main-font: 'Bangers';
     --secondary-font: 'Quicksand';
+    --margin-top-bann: 10px;
+    --margin-bot-bann: 70px;
 }
-
-body{
+body {
     margin: 0;
     padding: 0;
-    font-family: var(--secondary-font);
 }
 
 h1{
@@ -24,11 +25,10 @@ h2, h3{
     font-family: var(--main-font);
 }
 
-section{
-    padding: 30px;
-    text-align: justify;
+p {
+    font-family: var(--secondary-font), Arial, sans-serif;
+    font-size: 1em;
 }
-
 /* Home */
 
 .header{
@@ -77,4 +77,51 @@ section{
     height: 50px;
     background-color: var(--lightblue);
     width: 100%;
-  }
+}
+
+  /*-------------------------------- direct -----------------------------*/
+
+#banner-stream {
+	background: url('../src/img/banner-stream.jpg');
+	background-size: cover;
+    border-radius: 5px;
+    background-attachment: fixed;	
+    background-position: center;	
+    background-repeat: no-repeat;	
+    margin-top: var(--margin-top-bann);
+    margin-bottom: var(--margin-bot-bann);
+}
+
+#banner {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    height: 400px;
+	border-radius: 6px;
+}
+
+.banner-title {
+    font-family: var(--main-font), Arial, sans-serif; 
+    border-radius: 5px;
+	padding: 10px 20px 10px 20px;
+	background-color: rgba(24,24,24,0.8);
+	color: var(--main-color);
+    font-size: 2em;
+    text-align: center;
+}
+
+#intro-stream {
+    text-align: center;
+    margin: 70px 20px 70px 20px;
+}
+
+
+#carp-icon {
+    height: 25px;
+    width: 25px;
+}
+
+#twitch-embed {
+    text-align: center;
+}
+
