@@ -176,7 +176,7 @@ footer div{
     font-size: 1.3em;
 }
 
-.footerPart p,ul li{
+.footerPart p, .footerPart ul li{
     margin: 2%;
     list-style-type: none ;
     color:wheat;
@@ -270,7 +270,7 @@ EEEEEEEEEEEEEEEEEEEEEE     QQQQQQQQ::::QQ      UUUUUUUUU      IIIIIIIIIIPPPPPPPP
                                    Q:::::Q                                                                        
                                     QQQQQQ        */                                                                
                                                                               
-                                    
+
 /*-------------------------- mobile team ---------------------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
