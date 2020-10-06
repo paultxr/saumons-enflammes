@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
     <meta charset="UTF-8">
@@ -21,94 +22,100 @@
 
     </section>
 
-    
-
- <!--   <div class="dropdown">
-    <div id="cart">
-        <p><span id="in-cart-items-num">0</span> Articles</p>
-    </div> 
-
-    <ul id="cart-dropdown" hidden>
-        <li id="empty-cart-msg"><a>Votre panier est vide</a></li>
-        <li class="go-to-cart hidden"><a href="/panier/">Voir le panier</a></li>
-    </ul>
-</div> -->
 
     <section class="shopping-content">
 
-             <form id="fishing-simulator">
+    
+        <form  action="shop.php"  method="post">
                 <img src="../src/img/peche-simulateur.jpg"  class="shopping-img" width=80% alt="fishing-simulator">
                 <h3>SET UP : Simulateur de pêche pour salon</h3>
                 <p class="price">2349.99 €</p>
-                input
-               <input >
-
+                <input class="shopping" type="text" id='name' name="articleName" value='Simulateur de peĉhe'>
+                <input class="shopping" type="text" id='price' name="price" value="2349">
+                <button type="submit">Ajouter</button>
                 
             </form>
 
+            <div class="caddy">
 
-            <form id="hat">
+            
+
+            </div>
+
+           
+
+
+            <form  action="shop.php"  method="post">
                 <img src="../src/img/hat.jpg" class="shopping-img" alt="bob de pêche" width="80%">
                 <h3>Parapluie de tête motif camouflage</h3>
                 <p class="price">8.99 €</p>
-                <a href="panier.php?action=ajout&amp;l=LIBELLEPRODUIT&amp;q=QUANTITEPRODUIT&amp;p=PRIXPRODUIT" onclick="window.open(this.href, '', 
-                'toolbar=no, location=no, directories=no, status=yes, scrollbars=yes, resizable=yes, copyhistory=no, width=600, height=350'); return false;">Ajouter au panier</a>
+                <input class="shopping" type="text" value="Parapluie de tête motif camouflage">
+                <input class="shopping" type="text" value="8.99">
+                <input class="submit-button" type="button" value="Acheter">
+            </article>
+
             </form>
 
-            <form id="shoes">
+            <form  action="shop.php"  method="post">
                  
                 <img src="../src/img/fish-shoes.jpg"  class="shopping-img" width=80% alt="fishing-shoes">
                 <h3>Pantoufles truite</h3>
                 <p class="price">14.99 €</p>
-                <a href="panier.php?action=ajout&amp;l=LIBELLEPRODUIT&amp;q=QUANTITEPRODUIT&amp;p=PRIXPRODUIT" onclick="window.open(this.href, '', 
-                'toolbar=no, location=no, directories=no, status=yes, scrollbars=yes, resizable=yes, copyhistory=no, width=600, height=350'); return false;">Ajouter au panier</a>
+                <input class="shopping" type="text" value="Pantoufles truite">
+                <input class="shopping" type="text" value="14.99">
+                <input class="submit-button" type="button" value="Acheter">
                 
             </form>
 
-            <form id="singing-salmon">
+            <form  action="shop.php"  method="post">
                 <img src="../src/img/singing-salmon.jpg" alt="singing salmon" class="shopping-img" width="80%">
                 <h3>Saumon chantant Fixation Facile</h3>
                 <p class="price">12.99 €</p>
-                <a href="panier.php?action=ajout&amp;l=LIBELLEPRODUIT&amp;q=QUANTITEPRODUIT&amp;p=PRIXPRODUIT" onclick="window.open(this.href, '', 
-                'toolbar=no, location=no, directories=no, status=yes, scrollbars=yes, resizable=yes, copyhistory=no, width=600, height=350'); return false;">Ajouter au panier</a>
+                <input class="shopping" type="text" value="Saumont chantant">
+                <input class="shopping" type="text" value="12.99">
+                <input class="submit-button" type="button" value="Acheter">
             </form>
 
-            <form id="fishing-cane">
+            <form  action="shop.php"  method="post">
                 <img src="../src/img/canne-peche.jpg" alt="fishing-cane" class="shopping-img" width="80%">
                 <h3>Canne à pêche bluetooth</h3>
                 <p class="price">34.99 €</p>
-                <a href="panier.php?action=ajout&amp;l=LIBELLEPRODUIT&amp;q=QUANTITEPRODUIT&amp;p=PRIXPRODUIT" onclick="window.open(this.href, '', 
-                'toolbar=no, location=no, directories=no, status=yes, scrollbars=yes, resizable=yes, copyhistory=no, width=600, height=350'); return false;">Ajouter au panier</a>
+                <input class="shopping" type="text" value="canne à pêche bluetooth">
+                <input class="shopping" type="text" value="34.99">
+                <input class="submit-button" type="button" value="Acheter">
             </form>
 
 
-            <form id="jacket">
+            <form  action="shop.php"  method="post">
                 <img src="../src/img/veste.jpg" class="shopping-img" width=80% alt="jacket">
                 <h3>Véritable veste de pêcheur</h3>
-                <p class="price">28.99 €</p>
-                <a href="panier.php?action=ajout&amp;l=LIBELLEPRODUIT&amp;q=QUANTITEPRODUIT&amp;p=PRIXPRODUIT" onclick="window.open(this.href, '', 
-                'toolbar=no, location=no, directories=no, status=yes, scrollbars=yes, resizable=yes, copyhistory=no, width=600, height=350'); return false;">Ajouter au panier</a>
+                <p class="price">8.99 €</p>
+                <input class="shopping" type="text" value="Véritable veste de pêcheur">
+                <input class="shopping" type="text" value="9.99">
+                <input class="submit-button" type="button" value="Acheter">
                 
             </form>
 
-            <form id="toilet-bowl">
+            <form  action="shop.php"  method="post">
                 <img src="../src/img/cuvette.jpg" class="shopping-img" alt="fish-toilets" width="80%">
                 <h3>Cuvette qui donne la pêche</h3>
                 <p class="price">13.90 €</p>
-                <a href="panier.php?action=ajout&amp;l=LIBELLEPRODUIT&amp;q=QUANTITEPRODUIT&amp;p=PRIXPRODUIT" onclick="window.open(this.href, '', 
-                'toolbar=no, location=no, directories=no, status=yes, scrollbars=yes, resizable=yes, copyhistory=no, width=600, height=350'); return false;">Ajouter au panier</a>
+                <input class="shopping" type="text" value="Cuvette qui donne la pêche">
+                <input class="shopping" type="text" value="13.90">
+                <input class="submit-button" type="button" value="Acheter">
             </form>
 
-            <form id="cat-fish">
+            <form  action="shop.php"  method="post">
                 <img src="../src/img/poisson-pour-chat.jpg" class="shopping-img" width=80% alt="poisson-pour-chat">
                 <h3>Poisson en plastique pour chat</h3>
                 <p class="price">8.99 €</p>
-                <a href="panier.php?action=ajout&amp;l=LIBELLEPRODUIT&amp;q=QUANTITEPRODUIT&amp;p=PRIXPRODUIT" onclick="window.open(this.href, '', 
-                'toolbar=no, location=no, directories=no, status=yes, scrollbars=yes, resizable=yes, copyhistory=no, width=600, height=350'); return false;">Ajouter au panier</a>
+                <input class="shopping" type="text" value="Poisson en plastique pour chat">
+                <input class="shopping" type="text" value="8.99">
+                <input class="submit-button" type="button" value="Acheter">
             </form>
           
         </div>
-        <script type="text/javascript" src="script.js"></script>
+    
     </section>
  
 </body>
