@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
-                                    
 
+                                    
 body {
     margin-left: 0;
     margin-right: 0;
@@ -79,7 +79,7 @@ body {
                                         
     }
 
- article {
+ form {
         box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
         border-radius: 10px;
         padding-top: 5%;
@@ -110,8 +110,8 @@ body {
 
 }
 
-.submit-button {
-    margin: 2%;
+a {
+    margin: 4%;
     font-family: "Bangers", cursive;
     color: white;
     background-color:#303030;
@@ -124,4 +124,8 @@ body {
         grid-template-columns: repeat(2, 1fr);
         padding-left: 10%;
         padding-right: 10%;
-    }}
+    }
+    .dropdown:hover {
+        display: block;
+    }
+}
