@@ -32,7 +32,7 @@
                 <p class="price">2349.99 €</p>
                 <input class="shopping" type="text" id='name' name="articleName" value='Simulateur de peĉhe'>
                 <input class="shopping" type="text" id='price' name="price" value="2349">
-                <button type="submit">Ajouter</button>
+                <button class="button-shop" type="submit">Ajouter</button>
                 
             </form>
 
@@ -51,7 +51,7 @@
                 <p class="price">8.99 €</p>
                 <input class="shopping" type="text" value="Parapluie de tête motif camouflage">
                 <input class="shopping" type="text" value="8.99">
-                <input class="submit-button" type="button" value="Acheter">
+                <button class="button-shop" type="submit">Ajouter</button>
             </article>
 
             </form>
@@ -63,7 +63,7 @@
                 <p class="price">14.99 €</p>
                 <input class="shopping" type="text" value="Pantoufles truite">
                 <input class="shopping" type="text" value="14.99">
-                <input class="submit-button" type="button" value="Acheter">
+                <button class="button-shop" type="submit">Ajouter</button>
                 
             </form>
 
@@ -73,7 +73,7 @@
                 <p class="price">12.99 €</p>
                 <input class="shopping" type="text" value="Saumont chantant">
                 <input class="shopping" type="text" value="12.99">
-                <input class="submit-button" type="button" value="Acheter">
+                <button class="button-shop" type="submit">Ajouter</button>
             </form>
 
             <form  action="shop.php"  method="post">
@@ -82,7 +82,7 @@
                 <p class="price">34.99 €</p>
                 <input class="shopping" type="text" value="canne à pêche bluetooth">
                 <input class="shopping" type="text" value="34.99">
-                <input class="submit-button" type="button" value="Acheter">
+                <button class="button-shop" type="submit">Ajouter</button>
             </form>
 
 
@@ -92,7 +92,7 @@
                 <p class="price">8.99 €</p>
                 <input class="shopping" type="text" value="Véritable veste de pêcheur">
                 <input class="shopping" type="text" value="9.99">
-                <input class="submit-button" type="button" value="Acheter">
+                <button class="button-shop" type="submit">Ajouter</button>
                 
             </form>
 
@@ -102,7 +102,7 @@
                 <p class="price">13.90 €</p>
                 <input class="shopping" type="text" value="Cuvette qui donne la pêche">
                 <input class="shopping" type="text" value="13.90">
-                <input class="submit-button" type="button" value="Acheter">
+                <button class="button-shop" type="submit">Ajouter</button>
             </form>
 
             <form  action="shop.php"  method="post">
@@ -111,7 +111,7 @@
                 <p class="price">8.99 €</p>
                 <input class="shopping" type="text" value="Poisson en plastique pour chat">
                 <input class="shopping" type="text" value="8.99">
-                <input class="submit-button" type="button" value="Acheter">
+                <button class="button-shop" type="submit">Ajouter</button>
             </form>
           
         </div>
