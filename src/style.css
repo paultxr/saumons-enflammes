@@ -197,13 +197,14 @@ footer{
     display: inline-block;
     width: 100%;
     text-align: center;
+    font-family:var(--main-font);
 }
 
 footer div{
     padding-bottom: 2%;
 }
 .footerPart{
-    background: rgb(66, 66, 66);
+    background-color: #303030;
     padding-top: 1em;
     padding-bottom: 1.6em;
     
@@ -211,7 +212,7 @@ footer div{
 .footerReseaux{
     display: flex;
     width: 100%;
-    background-color: rgb(85, 39, 39);
+    background-color: #CD5C5C;
     padding-top: 1em;
 }
 
@@ -222,40 +223,42 @@ footer div{
 
 .footerReseaux div a i{
     text-decoration: none;
-    color:wheat;
+    color:white;
     font-size: 2em;
 }
 
 .footerReseaux div a i:hover{
-    color: rgb(66, 66, 66);
+    color: #303030;
 }
 .footerContact{
-    background-color: rgb(85, 39, 39);
+    background-color: #CD5C5C;
 }
 
 .footerContact a{
     text-decoration: none;
-    color:wheat;
+    color:white;
 }
 .footerContact a:hover{
-    color: rgb(66, 66, 66);
+    color: #303030;
 }
 .footerPart p{
     font-size: 1.3em;
+    font-family:var(--main-font);
+    
 }
 
 .footerPart p, .footerPart ul li{
     margin: 2%;
     list-style-type: none ;
-    color:wheat;
+    color:white;
 }
 .footerPart ul li a{
     text-decoration: none;
-    color:wheat;
+    color:white;
 }
 
 .footerPart ul li a:hover{
-    color: rgb(85, 39, 39);
+    color: #FA8072 ;
 }
 
 .footerPart p,.footerPart ul li, .footerContact .versContact{
@@ -544,7 +547,7 @@ nav ul{
     footer{
         display: flex;
         width: 100%;
-        background: linear-gradient(130deg, rgb(66, 66, 66) 40%, rgb(85, 39, 39) 40%);
+        background: linear-gradient(130deg, #303030 40%,  #CD5C5C 40%);
     }
     .footerPart{
         width: 40%;
