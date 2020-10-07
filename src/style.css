@@ -47,7 +47,7 @@ $$ |  $$ |$$$$$$$$\ $$ |  $$ |$$$$$$$  |$$$$$$$$\ $$ |  $$ |
 \__|  \__|\________|\__|  \__|\_______/ \________|\__|  \__|
 */
 
-header{
+#navbar {
     text-align: center;
     position: fixed;
     width: 100%;
@@ -124,16 +124,12 @@ $$ |  $$ | $$$$$$  |$$ | \_/ $$ |$$$$$$$$\
 */
 
 .video-home{
-    height: 100vh;
+    height: 100%;
 }
 
 .video-background{
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
+    width: 100%;
+    height: 100%;
 }
 
 .cards {
@@ -180,6 +176,10 @@ $$ |  $$ | $$$$$$  |$$ | \_/ $$ |$$$$$$$$\
     width: 100%;
 }
 
+#descr-homepage {
+    margin: 3% 5%;
+}
+
 
 /*
 $$$$$$$\  $$$$$$\ $$$$$$$\  $$$$$$$$\  $$$$$$\ $$$$$$$$\
@@ -192,6 +192,19 @@ $$$$$$$  |$$$$$$\ $$ |  $$ |$$$$$$$$\ \$$$$$$  |  $$ |
 \_______/ \______|\__|  \__|\________| \______/   \__|
 */
 
+#nav-bar-top {
+    margin-bottom: 120px;
+    background-color: #FFFFFF;
+
+}
+
+section {
+    border: 1px dotted red;
+}
+
+div {
+    border: 2px dashed green;
+}
 
 #banner-stream {
 	background: url('../src/img/banner-stream.jpg');

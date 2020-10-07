@@ -4,10 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="../src/style.css">
-    <title>Document</title>
+    <title>En direct</title>
 </head>
 <body>
-<?php include('header.php')?>
+    <section id="nav-bar-top">
+        <?php include('header.php')?>
+    </section>
+
     <section id="banner-stream">
         <div id="banner">
             <h1 class="banner-title">Les Saumons Enflammés : </br> le live</h1>
