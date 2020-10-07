@@ -246,6 +246,9 @@ footer div{
     font-family:var(--main-font);
     
 }
+.footerPart ul{
+    padding:0;
+}
 
 .footerPart p, .footerPart ul li{
     margin: 2%;
