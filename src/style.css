@@ -2,17 +2,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@900&display=swap');
+
 :root{
     --main-color: #FA8072;
     --secondary-color: #CD5C5C;
-    --third-color: black; 
-    --lightblue: lightblue;
+    --third-color: black;
+    --fond-btn: lightblue;
+    --title-articleshop: #303030;
 
     --main-font: 'Bangers';
     --secondary-font: 'Quicksand';
     --margin-top-bann: 10px;
     --margin-bot-bann: 70px;
 }
+
 body {
     margin: 0;
     padding: 0;
@@ -32,7 +35,17 @@ p {
     font-family: var(--secondary-font), Arial, sans-serif;
     font-size: 1em;
 }
-/*-------------------------------- header ----------------------------*/
+
+/*
+$$\   $$\ $$$$$$$$\  $$$$$$\  $$$$$$$\  $$$$$$$$\ $$$$$$$\
+$$ |  $$ |$$  _____|$$  __$$\ $$  __$$\ $$  _____|$$  __$$\
+$$ |  $$ |$$ |      $$ /  $$ |$$ |  $$ |$$ |      $$ |  $$ |
+$$$$$$$$ |$$$$$\    $$$$$$$$ |$$ |  $$ |$$$$$\    $$$$$$$  |
+$$  __$$ |$$  __|   $$  __$$ |$$ |  $$ |$$  __|   $$  __$$<
+$$ |  $$ |$$ |      $$ |  $$ |$$ |  $$ |$$ |      $$ |  $$ |
+$$ |  $$ |$$$$$$$$\ $$ |  $$ |$$$$$$$  |$$$$$$$$\ $$ |  $$ |
+\__|  \__|\________|\__|  \__|\_______/ \________|\__|  \__|
+*/
 
 header{
     text-align: center;
@@ -49,6 +62,7 @@ header{
 .toggler{
     display: none;
 }
+
 .logo{
     display: flex;
     margin-left: 16px;}nav ul{
@@ -59,13 +73,17 @@ header{
     left :-111%;
     transition:all 0.5s;
     list-style: none;
-    background: #FFFFFF
-;
+    background: #FFFFFF;
     margin-top: 10px;
-}nav li{
+
+}
+
+nav li{
     margin-bottom: 16px;
     margin-left: 16px;
-}nav a{
+}
+
+nav a{
     text-decoration: none;
     color:rgb(230, 69, 69);
     font-size: 30px;
@@ -73,12 +91,14 @@ header{
     text-transform: uppercase;
     margin-top: 20px;
 }
+
 nav a:hover,nav a.active{
     color: #15C6E6;
     transition: ease-in 0.1s;}.toggler:checked ~ nav ul{
     transition: all 0.3s;
     left:-9%;
 }
+
 #toggler:checked ~ .menu-btn i:before{
     content:"\f00d";}.menu-btn{
     position : absolute;
@@ -92,8 +112,16 @@ nav a:hover,nav a.active{
 }
 
 
-
-/*-------------------------------- Home ---------------------------- */
+/*
+$$\   $$\  $$$$$$\  $$\      $$\ $$$$$$$$\
+$$ |  $$ |$$  __$$\ $$$\    $$$ |$$  _____|
+$$ |  $$ |$$ /  $$ |$$$$\  $$$$ |$$ |
+$$$$$$$$ |$$ |  $$ |$$\$$\$$ $$ |$$$$$\
+$$  __$$ |$$ |  $$ |$$ \$$$  $$ |$$  __|
+$$ |  $$ |$$ |  $$ |$$ |\$  /$$ |$$ |
+$$ |  $$ | $$$$$$  |$$ | \_/ $$ |$$$$$$$$\
+\__|  \__| \______/ \__|     \__|\________|
+*/
 
 .video-home{
     height: 100vh;
@@ -112,7 +140,8 @@ nav a:hover,nav a.active{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-  }
+}
+
 .card {
     border-radius: 10px;
     width: 200px;
@@ -120,7 +149,8 @@ nav a:hover,nav a.active{
     display: flex;
     flex-direction: column;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  }
+}
+
 .card-img {
     border-radius: 10px 10px 0 0;
     background-size: cover;
@@ -128,34 +158,48 @@ nav a:hover,nav a.active{
     background-image: url(../src/img/Xbox.jpg);
     height: 200px;
     width: 100%;
-  }
+}
+
 .card-body {
     padding: 10px 20px;
-  }
+}
+
 .card-body h4 {
     margin: 10px 0px;
     text-align: center;
     font-size: 15px;
     color: var(--third-color);
     font-family: var(--secondary-font);
-  }
+}
+
 .card-button {
     border: none;
     border-radius: 10px;
     height: 50px;
-    background-color: var(--lightblue);
+    background-color: var(--fond-btn);
     width: 100%;
 }
 
-  /*-------------------------------- direct -----------------------------*/
+
+/*
+$$$$$$$\  $$$$$$\ $$$$$$$\  $$$$$$$$\  $$$$$$\ $$$$$$$$\
+$$  __$$\ \_$$  _|$$  __$$\ $$  _____|$$  __$$\\__$$  __|
+$$ |  $$ |  $$ |  $$ |  $$ |$$ |      $$ /  \__|  $$ |
+$$ |  $$ |  $$ |  $$$$$$$  |$$$$$\    $$ |        $$ |
+$$ |  $$ |  $$ |  $$  __$$< $$  __|   $$ |        $$ |
+$$ |  $$ |  $$ |  $$ |  $$ |$$ |      $$ |  $$\   $$ |
+$$$$$$$  |$$$$$$\ $$ |  $$ |$$$$$$$$\ \$$$$$$  |  $$ |
+\_______/ \______|\__|  \__|\________| \______/   \__|
+*/
+
 
 #banner-stream {
 	background: url('../src/img/banner-stream.jpg');
 	background-size: cover;
     border-radius: 5px;
-    background-attachment: fixed;	
-    background-position: center;	
-    background-repeat: no-repeat;	
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
     margin-top: var(--margin-top-bann);
     margin-bottom: var(--margin-bot-bann);
 }
@@ -169,7 +213,7 @@ nav a:hover,nav a.active{
 }
 
 .banner-title {
-    font-family: var(--main-font), Arial, sans-serif; 
+    font-family: var(--main-font), Arial, sans-serif;
     border-radius: 5px;
 	padding: 10px 20px 10px 20px;
 	background-color: rgba(24,24,24,0.8);
@@ -192,7 +236,9 @@ nav a:hover,nav a.active{
 #twitch-embed {
     text-align: center;
 }
+
 /* ------------------------------- footer style -----------------------------*/
+
 footer{
     display: inline-block;
     width: 100%;
@@ -203,12 +249,13 @@ footer{
 footer div{
     padding-bottom: 2%;
 }
+
 .footerPart{
     background-color: #303030;
     padding-top: 1em;
     padding-bottom: 1.6em;
-    
 }
+
 .footerReseaux{
     display: flex;
     width: 100%;
@@ -230,6 +277,7 @@ footer div{
 .footerReseaux div a i:hover{
     color: #303030;
 }
+
 .footerContact{
     background-color: #CD5C5C;
 }
@@ -238,14 +286,16 @@ footer div{
     text-decoration: none;
     color:white;
 }
+
 .footerContact a:hover{
     color: #303030;
 }
+
 .footerPart p{
     font-size: 1.3em;
     font-family:var(--main-font);
-    
 }
+
 .footerPart ul{
     padding:0;
 }
@@ -255,6 +305,7 @@ footer div{
     list-style-type: none ;
     color:white;
 }
+
 .footerPart ul li a{
     text-decoration: none;
     color:white;
@@ -271,13 +322,26 @@ footer div{
     font-size: small;
 }
 
-/*----------------------------------- Contact --------------------------------------*/
+/*
+$$$$$$\   $$$$$$\  $$\   $$\ $$$$$$$$\  $$$$$$\   $$$$$$\ $$$$$$$$\
+$$  __$$\ $$  __$$\ $$$\  $$ |\__$$  __|$$  __$$\ $$  __$$\\__$$  __|
+$$ /  \__|$$ /  $$ |$$$$\ $$ |   $$ |   $$ /  $$ |$$ /  \__|  $$ |
+$$ |      $$ |  $$ |$$ $$\$$ |   $$ |   $$$$$$$$ |$$ |        $$ |
+$$ |      $$ |  $$ |$$ \$$$$ |   $$ |   $$  __$$ |$$ |        $$ |
+$$ |  $$\ $$ |  $$ |$$ |\$$$ |   $$ |   $$ |  $$ |$$ |  $$\   $$ |
+\$$$$$$  | $$$$$$  |$$ | \$$ |   $$ |   $$ |  $$ |\$$$$$$  |  $$ |
+\______/  \______/ \__|  \__|   \__|   \__|  \__| \______/   \__|
+
+*/
+
 .contactForm form{
     text-align: center;
 }
+
 .contactForm form{
     padding-top: 3em;
 }
+
 .parallaxContact{
     /* The image used */
     background-image: url("../src/img/pecheur-contact.gif");        /* Set a specific height */
@@ -292,8 +356,8 @@ footer div{
 
 .contactForm .contactTitle{
     background-color: rgba(24,24,24, 0.8);
-        border-radius: 5px;
-        padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    padding: 10px 15px 10px 15px;
 }
 .contactForm div h1{
     text-align: center;
@@ -313,38 +377,36 @@ footer div{
     margin: 0;
     border-radius: 0px;
     box-shadow: none;
-  
-    -webkit-box-sizing: border-box; 
-       -moz-box-sizing: border-box; 
+
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
             box-sizing: border-box;
   }
 
-  .contactForm form input{
+.contactForm form input{
     height: 2em;
-  }
+}
 
-
-                                                                                                       
 /*EEEEEEEEEEEEEEEEEEEEEE     QQQQQQQQQ     UUUUUUUU     UUUUUUUUIIIIIIIIIIPPPPPPPPPPPPPPPPP   EEEEEEEEEEEEEEEEEEEEEE
 E::::::::::::::::::::E   QQ:::::::::QQ   U::::::U     U::::::UI::::::::IP::::::::::::::::P  E::::::::::::::::::::E
 E::::::::::::::::::::E QQ:::::::::::::QQ U::::::U     U::::::UI::::::::IP::::::PPPPPP:::::P E::::::::::::::::::::E
 EE::::::EEEEEEEEE::::EQ:::::::QQQ:::::::QUU:::::U     U:::::UUII::::::IIPP:::::P     P:::::PEE::::::EEEEEEEEE::::E
   E:::::E       EEEEEEQ::::::O   Q::::::Q U:::::U     U:::::U   I::::I    P::::P     P:::::P  E:::::E       EEEEEE
-  E:::::E             Q:::::O     Q:::::Q U:::::D     D:::::U   I::::I    P::::P     P:::::P  E:::::E             
-  E::::::EEEEEEEEEE   Q:::::O     Q:::::Q U:::::D     D:::::U   I::::I    P::::PPPPPP:::::P   E::::::EEEEEEEEEE   
-  E:::::::::::::::E   Q:::::O     Q:::::Q U:::::D     D:::::U   I::::I    P:::::::::::::PP    E:::::::::::::::E   
-  E:::::::::::::::E   Q:::::O     Q:::::Q U:::::D     D:::::U   I::::I    P::::PPPPPPPPP      E:::::::::::::::E   
-  E::::::EEEEEEEEEE   Q:::::O     Q:::::Q U:::::D     D:::::U   I::::I    P::::P              E::::::EEEEEEEEEE   
-  E:::::E             Q:::::O  QQQQ:::::Q U:::::D     D:::::U   I::::I    P::::P              E:::::E             
+  E:::::E             Q:::::O     Q:::::Q U:::::D     D:::::U   I::::I    P::::P     P:::::P  E:::::E
+  E::::::EEEEEEEEEE   Q:::::O     Q:::::Q U:::::D     D:::::U   I::::I    P::::PPPPPP:::::P   E::::::EEEEEEEEEE
+  E:::::::::::::::E   Q:::::O     Q:::::Q U:::::D     D:::::U   I::::I    P:::::::::::::PP    E:::::::::::::::E
+  E:::::::::::::::E   Q:::::O     Q:::::Q U:::::D     D:::::U   I::::I    P::::PPPPPPPPP      E:::::::::::::::E
+  E::::::EEEEEEEEEE   Q:::::O     Q:::::Q U:::::D     D:::::U   I::::I    P::::P              E::::::EEEEEEEEEE
+  E:::::E             Q:::::O  QQQQ:::::Q U:::::D     D:::::U   I::::I    P::::P              E:::::E
   E:::::E       EEEEEEQ::::::O Q::::::::Q U::::::U   U::::::U   I::::I    P::::P              E:::::E       EEEEEE
 EE::::::EEEEEEEE:::::EQ:::::::QQ::::::::Q U:::::::UUU:::::::U II::::::IIPP::::::PP          EE::::::EEEEEEEE:::::E
 E::::::::::::::::::::E QQ::::::::::::::Q   UU:::::::::::::UU  I::::::::IP::::::::P          E::::::::::::::::::::E
 E::::::::::::::::::::E   QQ:::::::::::Q      UU:::::::::UU    I::::::::IP::::::::P          E::::::::::::::::::::E
 EEEEEEEEEEEEEEEEEEEEEE     QQQQQQQQ::::QQ      UUUUUUUUU      IIIIIIIIIIPPPPPPPPPP          EEEEEEEEEEEEEEEEEEEEEE
-                                   Q:::::Q                                                                        
-                                    QQQQQQ        */                                                                
-                                                                              
-                                    
+                                   Q:::::Q
+                                    QQQQQQ        */
+
+
 /*-------------------------- mobile team ---------------------------------*/
 /*@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');*/
@@ -357,10 +419,10 @@ EEEEEEEEEEEEEEEEEEEEEE     QQQQQQQQ::::QQ      UUUUUUUUU      IIIIIIIIIIPPPPPPPP
 
     /* The image used */
     background-image: url("../src/img/cover-team3.jpg");
-  
+
     /* Set a specific height */
     height: 400px;
-  
+
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -370,17 +432,15 @@ EEEEEEEEEEEEEEEEEEEEEE     QQQQQQQQ::::QQ      UUUUUUUUU      IIIIIIIIIIPPPPPPPP
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  
+}
+
                                /* POLICES DE TITRES ET DE PARAGRAPHES */
 
 
 p, form {
     font-family:'Quicksand', sans-serif ;
     color: #303030;
-
 }
-
 
 .quote {
     font-style: italic;
@@ -400,13 +460,10 @@ p, form {
     margin: 0% 5%;
 }
 
-
 .profile-image {
-
     border: none;
     width: 100%;
     height: 50%;
-    
 }
 
 .partition {
@@ -439,22 +496,33 @@ p, form {
     background-color:#303030;
     padding: 2px 10px;
     font-size: 1.5em;
-  }
+}
 
-  .contactForm .button button:hover{
+.contactForm .button button:hover{
       background-color: rgb(85, 39, 39);
-  }
+}
 
-  .contactForm label{
+.contactForm label{
     font-family: 'Quicksand', sans-serif;
     font-size: 1.5em;
     font-weight: bold;
+}
 
-  }
-  .mapping {
+.mapping {
     text-align: center;
 }
-/*-------------------boutique ------------------------------*/
+
+/*
+$$$$$$\  $$\   $$\  $$$$$$\  $$$$$$$\
+$$  __$$\ $$ |  $$ |$$  __$$\ $$  __$$\
+$$ /  \__|$$ |  $$ |$$ /  $$ |$$ |  $$ |
+\$$$$$$\  $$$$$$$$ |$$ |  $$ |$$$$$$$  |
+\____$$\ $$  __$$ |$$ |  $$ |$$  ____/
+$$\   $$ |$$ |  $$ |$$ |  $$ |$$ |
+\$$$$$$  |$$ |  $$ | $$$$$$  |$$ |
+\______/ \__|  \__| \______/ \__|
+*/
+
 .parallax-boutique {        /* The image used */
     background-image: url("../src/img/cover-shop4.jpg");        /* Set a specific height */
     height: 400px;        /* Create the parallax scrolling effect */
@@ -464,42 +532,37 @@ p, form {
     background-size: cover;        display: flex;
     justify-content: center;
     align-items: center;
-}    
-/* POLICES DE TITRES ET DE PARAGRAPHES */    
-h1 {
-    font-family: 'Bangers', cursive;
-    color: #FA8072;
-}    
-h2 {
-    font-family: 'Bangers', cursive;
-    color: #CD5C5C;        
-}    
+}
+
+/* POLICES DE TITRES ET DE PARAGRAPHES */
 
 h3 {
-    font-family: "Bangers", cursive ;
-    color: #303030;
-}    
+    color: var(--title-articleshop);
+}
+
 p, form {
-    font-family:'Quicksand', sans-serif ;
-    color: #303030;            
-}    
+    color: var(--title-articleshop);
+}
+
 .quote {
     font-style: italic;
-}    
+}
+
 .title-background {
     background-color: rgba(24,24,24, 0.8);
     border-radius: 5px;
     padding: 10px 15px 10px 15px;
-    }    
+}
 
-                           /* GRIDS ET BOX MODELS */ 
-  
-  form {
+                           /* GRIDS ET BOX MODELS */
+
+form {
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     border-radius: 10px;
     margin-top: 5%;
     margin-bottom: 5%;
-  }
+}
+
 .button-shop {
     margin: 4%;
     font-family: "Bangers", cursive;
@@ -508,13 +571,16 @@ p, form {
     padding: 2px 10px;
     font-size: 1.5em;
 }
+
 .shopping, .caddy {
 display: none;
 }
+
 .intro {
 margin: 5% 5%;
 text-align: center;
 }
+
 .shopping-content {
 text-align: center;
 margin-top: 5%;
@@ -524,27 +590,31 @@ grid-gap: 15px;
 grid-auto-rows: minmax(100px, auto);
 }
 
+
 /*375*/
 @media screen and (min-width: 376px){
     /*------------------------------------ header desktop ------------------------------*/
-.menu-btn{
-    display: none;
-}
-header{
-    display: grid;
-    grid-template-columns: 1fr auto minmax(380px, 3fr);    }
-nav{
-    display: flex;
-    grid-column: 3/4;
-    justify-content: flex-end;
-    align-items: center;
-    margin-right: 30px;    }
-nav ul{
-    all: unset;
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;    
-}
+    .menu-btn{
+        display: none;
+    }
+    header{
+        display: grid;
+        grid-template-columns: 1fr auto minmax(380px, 3fr);    }
+
+        nav{
+        display: flex;
+        grid-column: 3/4;
+        justify-content: flex-end;
+        align-items: center;
+        margin-right: 30px;
+    }
+
+    nav ul{
+        all: unset;
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+    }
 
 /*------------------------------------ Footer Desktop ------------------------------*/
     footer{
@@ -639,14 +709,14 @@ nav ul{
         margin: 5% 0;
     }
 
-    .mapping{ 
-        height: 180px; 
+    .mapping{
+        height: 180px;
         width: 100%;
         margin-top: 3%;
         margin-bottom: 28%;
         text-align: center;
     }
-    
+
     .map {
         margin-bottom: 0;
     }
@@ -656,10 +726,6 @@ nav ul{
         grid-template-columns: repeat(4, 1fr);
         padding-left: 10%;
         padding-right: 10%;
-        }    
-        
-
-
-
+        }
 
 }
