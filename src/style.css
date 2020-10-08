@@ -8,7 +8,7 @@
     --main-color: #FA8072;
     --secondary-color: #CD5C5C;
     --third-color: black;
-    --fond-btn: lightblue;
+    --fond-btn: rgb(151, 174, 199);
     --title-articleshop: #303030;
 
     --main-font: 'Bangers';
@@ -103,11 +103,18 @@ nav a{
 
 nav a:hover{
     color: #15C6E6;
-    transition: ease-in 0.1s;}.toggler:checked ~ nav ul{
+    transition: ease-in 0.1s;}
+    
+.toggler:checked ~ nav ul{
+    color: #FFFFFF;
     transition: all 0.3s;
     left:-9%;
 }
 
+
+i{
+    color: #FFFFFF;
+}
 
 #toggler:checked ~ .menu-btn i:before{
     content:"\f00d";
