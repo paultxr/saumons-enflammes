@@ -211,7 +211,7 @@ $$$$$$$  |$$$$$$\ $$ |  $$ |$$$$$$$$\ \$$$$$$  |  $$ |
 	display: flex;
 	justify-content: center;
 	align-items: center;
-    height: 400px;
+    height: 500px;
 	border-radius: 6px;
 }
 
@@ -348,11 +348,12 @@ $$ |  $$\ $$ |  $$ |$$ |\$$$ |   $$ |   $$ |  $$ |$$ |  $$\   $$ |
 .parallaxContact{
     /* The image used */
     background-image: url("../src/img/pecheur-contact.gif");        /* Set a specific height */
-    height: 400px;        /* Create the parallax scrolling effect */
+    height: 500px;        /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: bottom;
     background-repeat: no-repeat;
-    background-size: cover;        display: flex;
+    background-size: cover;        
+    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -418,13 +419,13 @@ EEEEEEEEEEEEEEEEEEEEEE     QQQQQQQQ::::QQ      UUUUUUUUU      IIIIIIIIIIPPPPPPPP
 
                                     /* COVER EN PARALLAX AVEC TITRE */
 
-.parallax {
+.parallax-team {
 
     /* The image used */
     background-image: url("../src/img/cover-team3.jpg");
 
     /* Set a specific height */
-    height: 400px;
+    height: 500px;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -528,7 +529,7 @@ $$\   $$ |$$ |  $$ |$$ |  $$ |$$ |
 
 .parallax-boutique {        /* The image used */
     background-image: url("../src/img/cover-shop4.jpg");        /* Set a specific height */
-    height: 400px;        /* Create the parallax scrolling effect */
+    height: 500px;        /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -563,7 +564,7 @@ form {
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     border-radius: 10px;
     margin-top: 5%;
-    margin-bottom: 5%;
+    
 }
 
 .button-shop {
@@ -660,6 +661,14 @@ grid-auto-rows: minmax(100px, auto);
 
 /*----------------------------------- Contact Desktop --------------------------------------*/
 
+    .contactForm{
+        margin-bottom: 2%;
+    }
+
+    .contactForm form{
+        box-shadow: none;
+    }
+
     .contactForm form textarea, .contactForm form input{
         width : 40%;
     }
@@ -673,7 +682,7 @@ grid-auto-rows: minmax(100px, auto);
     .parallaxContact{
         /* The image used */
         background-image: url("../src/img/pecheur-contact-desktop.gif");        /* Set a specific height */
-        height: 400px;        /* Create the parallax scrolling effect */
+              /* Create the parallax scrolling effect */
         background-attachment: fixed;
         background-position: bottom;
         background-repeat: no-repeat;
@@ -716,7 +725,7 @@ grid-auto-rows: minmax(100px, auto);
         height: 180px;
         width: 100%;
         margin-top: 3%;
-        margin-bottom: 28%;
+        margin-bottom: 25.4%;
         text-align: center;
     }
 

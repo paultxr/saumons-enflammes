@@ -11,7 +11,7 @@
 </head>
 <body>
 <?php include('header.php')?>
-    <div class="parallax">
+    <div class="parallax-team">
 
         <div class=title-background><h1>L'équipe des saumons</h1></div>
 
@@ -71,8 +71,7 @@
         <div class="join-us">
             <h2>Nous rejoindre</h2>
             <p>On recherche un quatrième joueur ou joueuse pour rejoinre l'équipe. <br> Mentalité compétitive et fortes connaissances en matière de pêche electronique sont recquises !</p>
-            <form>
-                
+                            
                 <form action="" method="get" class="form-example">
                     <div class="user-name">
                       <label for="name">Ton nom: </label><br>
@@ -86,7 +85,6 @@
                     </div>
                   </form>
 
-            </form>
         </div>
         <?php include('footer.php')?>
         <script src="../src/script.js"></script>
