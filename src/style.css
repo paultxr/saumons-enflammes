@@ -56,7 +56,8 @@ $$ |  $$ |$$$$$$$$\ $$ |  $$ |$$$$$$$  |$$$$$$$$\ $$ |  $$ |
     padding-bottom: 100px;
     box-sizing: border-box;}body{
     margin: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family:var(--main-font);
+    background-color: white;
 }
 
 .toggler{
@@ -65,22 +66,24 @@ $$ |  $$ |$$$$$$$$\ $$ |  $$ |$$$$$$$  |$$$$$$$$\ $$ |  $$ |
 
 .logo{
     display: flex;
-    margin-left: 16px;}nav ul{
+    margin-left: 16px;
+}
+nav ul{
     position: fixed;
     width: 100%;
-    height: 20vh;
+    height: auto;
     padding: 16px;
     left :-111%;
     transition:all 0.5s;
     list-style: none;
     background: #FFFFFF;
-    margin-top: 10px;
+    margin-top: 0px;
 
 }
 
 nav li{
     margin-bottom: 16px;
-    margin-left: 16px;
+    margin-left: 40px;
 }
 
 nav a{
@@ -100,7 +103,9 @@ nav a:hover,nav a.active{
 }
 
 #toggler:checked ~ .menu-btn i:before{
-    content:"\f00d";}.menu-btn{
+    content:"\f00d";
+}
+.menu-btn{
     position : absolute;
     font-size: 35px;
     top: 0;
@@ -192,19 +197,19 @@ $$$$$$$  |$$$$$$\ $$ |  $$ |$$$$$$$$\ \$$$$$$  |  $$ |
 \_______/ \______|\__|  \__|\________| \______/   \__|
 */
 
-#nav-bar-top {
-    margin-bottom: 120px;
+/*#nav-bar-top {
+  
     background-color: #FFFFFF;
 
-}
+}*/
 
-section {
+/*section {
     border: 1px dotted red;
 }
 
 div {
     border: 2px dashed green;
-}
+}*/
 
 #banner-stream {
 	background: url('../src/img/banner-stream.jpg');
