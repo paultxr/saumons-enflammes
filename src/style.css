@@ -197,28 +197,13 @@ $$$$$$$  |$$$$$$\ $$ |  $$ |$$$$$$$$\ \$$$$$$  |  $$ |
 \_______/ \______|\__|  \__|\________| \______/   \__|
 */
 
-/*#nav-bar-top {
-  
-    background-color: #FFFFFF;
-
-}*/
-
-/*section {
-    border: 1px dotted red;
-}
-
-div {
-    border: 2px dashed green;
-}*/
 
 #banner-stream {
 	background: url('../src/img/banner-stream.jpg');
 	background-size: cover;
-    border-radius: 5px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    margin-top: var(--margin-top-bann);
     margin-bottom: var(--margin-bot-bann);
 }
 
