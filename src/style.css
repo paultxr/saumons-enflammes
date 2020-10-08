@@ -1,38 +1,101 @@
 
-.cardEvent {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+:root {
+  --main-color: #FA8072;
+  --secondary-color: #CD5C5C;
+  --main-font: 'Bangers';
+  --third-color: black;
+  --secondary-font: 'Quicksand';
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 { 
+  color: #FA8072;
+  font-family: 'Bangers',sans-serif;
+  text-align: center;
+}
+
+p{
+  font-family: var(--secondary-font);
+  font-size: 1em;
+}
+
+/* PAGE EVENT */
+
+.banner-event {
+	  background: url('../src/img/montrealcompet.jpg');
+	  background-size: cover;
+    border-radius: 5px;
+    background-attachment: fixed;	
+    background-position: center;	
+    background-repeat: no-repeat;	
+}
+
+.banner {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  height: 400px;
+}
+
+.title-background {
+  font-family: var(--main-font); 
+  border-radius: 5px;
+  padding: 10px 20px 10px 20px;
+  background-color: rgba(24,24,24,0.8);
+  color: var(--main-color);
+  font-size: 2em;
+  text-align: center;
+}
+
+
+.flex {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .cardArticle {
-  border-radius: 10px;
-  width: 200px;
-  margin: 20px;
-  display: flex;
-  flex-direction: column;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 10px;
+    width: 350px;
+    height: 775px;
+    margin: 20px;
+    display: flex;
+    flex-direction: line;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .cardPic {
+    border-radius: 10px 10px 0 0;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../src/img/montrealcompet.jpg);
+    height: 400px;
+    width: 100%;
+}
+
+.cardPicbis {
   border-radius: 10px 10px 0 0;
   background-size: cover;
   background-position: center;
-  background-image: url(../src/img/montrealcompet.jpg);
+  background-image: url(../src/img/Zaou_1.jpg);
   height: 400px;
   width: 100%;
-  }
+}
 
 .cardBodybis {
-  padding: 10px 20px;
+    padding: 10px 20px;
 }
 
 .cardTitlebis {
-  margin: 10px 0px;
-  text-align: center;
-  font-size: 15px;
-  color: var(--third-color);
-  font-family: var(--secondary-font);
+    margin: 10px 0px;
+    text-align: center;
+    font-size: 20px;
+    color: var(--third-color);
+    font-family: var(--secondary-font);
 }
 
 .cardButtonbis {
@@ -44,5 +107,14 @@
 }
 
 .cardTexte {
-  font-size: 20px;
+  font-family: var(--secondary-font);
+  font-size: 18px;
+  text-align: justify;
 }
+
+
+@media only screen and (max-width: 376px) {
+    .flex {
+      justify-content: space-around;
+  }
+} 
