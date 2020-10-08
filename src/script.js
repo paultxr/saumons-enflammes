@@ -6,6 +6,7 @@ const articles = [
     picture: "https://www.heypoorplayer.com/wp-content/uploads/2016/11/DBA67C87-804C-4FC9-BB9D-CEC46831116C-18204-000008F60A28B53F_tmp.jpg",
     mytext: "lorem20", 
     myLink: "https://www.simulagri.fr/2019/09/ultimate-fishing-simulator-vr-la-peche-en-realite-virtuelle-cest-juste-dingue/"
+<<<<<<< HEAD
   },
   {
     mytitle: "La pêche à la ligne bientôt en réalité virtuelle !",
@@ -13,6 +14,10 @@ const articles = [
     mytext: "lorem20", 
     myLink: "https://www.simulagri.fr/2019/08/la-peche-a-la-ligne-bientot-en-vr-sur-ultimate-fishing-simulator/"
   },
+=======
+}
+
+>>>>>>> 6098f5a482ba599cd4a4eedbf75c9fc7f5b2583f
 ];
 
 function createCard(title, imageUrl, linkUrl, texte) {
