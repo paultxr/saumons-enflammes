@@ -1,3 +1,4 @@
+
 /*<<<<<<< HEAD*/
 @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
@@ -24,9 +25,7 @@ body {
 h1{
     color: var(--main-color);
     font-family: var(--main-font);
-}
-
-h2, h3{
+}h2, h3{
     color: var(--secondary-color);
     font-family: var(--main-font);
 }
@@ -35,6 +34,7 @@ p {
     font-family: var(--secondary-font), Arial, sans-serif;
     font-size: 1em;
 }
+
 
 /*
 $$\   $$\ $$$$$$$$\  $$$$$$\  $$$$$$$\  $$$$$$$$\ $$$$$$$\
@@ -122,6 +122,10 @@ nav a:hover{
     display: flex;
     align-items: center;
 }
+a.active {
+    color: #15C6E6
+;
+}
 
 
 /*
@@ -137,60 +141,135 @@ $$ |  $$ | $$$$$$  |$$ | \_/ $$ |$$$$$$$$\
 
 .video-home{
     height: 100%;
-}
-
-.video-background{
+}.video-background{
     width: 100%;
     height: 100%;
-}
-
-.cards {
+}.cards {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-}
-
-.card {
+}.card {
     border-radius: 10px;
     width: 200px;
     margin: 20px;
     display: flex;
     flex-direction: column;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-}
-
-.card-img {
+}.card-img {
     border-radius: 10px 10px 0 0;
     background-size: cover;
     background-position: center;
     background-image: url(../src/img/Xbox.jpg);
     height: 200px;
     width: 100%;
-}
-
-.card-body {
+}.card-body {
     padding: 10px 20px;
-}
-
-.card-body h4 {
+}.card-body h4 {
     margin: 10px 0px;
     text-align: center;
     font-size: 15px;
     color: var(--third-color);
     font-family: var(--secondary-font);
-}
-
-.card-button {
+}.card-button {
     border: none;
     border-radius: 10px;
     height: 50px;
     background-color: var(--fond-btn);
     width: 100%;
-}
-
-#descr-homepage {
+}#descr-homepage {
     margin: 3% 5%;
 }
+
+/*____  __     __  ________  __    __  ________ 
+/        |/  |   /  |/        |/  \  /  |/        |
+$$$$$$$$/ $$ |   $$ |$$$$$$$$/ $$  \ $$ |$$$$$$$$/ 
+$$ |__    $$ |   $$ |$$ |__    $$$  \$$ |   $$ |   
+$$    |   $$  \ /$$/ $$    |   $$$$  $$ |   $$ |   
+$$$$$/     $$  /$$/  $$$$$/    $$ $$ $$ |   $$ |   
+$$ |_____   $$ $$/   $$ |_____ $$ |$$$$ |   $$ |   
+$$       |   $$$/    $$       |$$ | $$$ |   $$ |   
+$$$$$$$$/     $/     $$$$$$$$/ $$/   $$/    $$/    
+*/        
+.banner-event {
+    background: url('../src/img/montrealcompet.jpg');
+    background-size: cover;
+    background-attachment: fixed;	
+    background-position: center;	
+    background-repeat: no-repeat;	
+    margin-bottom: var(--margin-bot-bann);
+}
+.banner {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  height: 500px;
+  border-radius: 6px;
+}
+.title-background {
+    font-family: var(--main-font); 
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+    background-color: rgba(24,24,24,0.8);
+    color: var(--main-color);
+    font-size: 2em;
+    text-align: center;
+  }
+
+.flex {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.cardArticle {
+    border-radius: 10px;
+    width: 350px;
+    height: 775px;
+    margin: 20px;
+    display: flex;
+    flex-direction: line;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.cardPic {
+
+    border-radius: 10px 10px 0 0;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../src/img/montrealcompet.jpg);
+    height: 400px;
+    width: 100%;
+}
+.cardPicbis {
+    border-radius: 10px 10px 0 0;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../src/img/Zaou_1.jpg);
+    height: 400px;
+    width: 100%;
+  }
+.cardBodybis {
+    padding: 10px 20px;
+}
+.cardTitlebis {
+    margin: 10px 0px;
+    text-align: center;
+    font-size: 20px;
+    color: var(--third-color);
+    font-family: var(--secondary-font);
+}
+.cardButtonbis {
+    border: none;
+    border-radius: 10px;
+    height: 50px;
+    background-color: lightblue;
+    width: 100%;
+  }
+  
+  .cardTexte {
+    font-family: var(--secondary-font);
+    font-size: 18px;
+    text-align: justify;
+  }
+  
 
 
 /*
@@ -745,6 +824,10 @@ grid-auto-rows: minmax(100px, auto);
         grid-template-columns: repeat(4, 1fr);
         padding-left: 10%;
         padding-right: 10%;
+        }
+/*------------------------------------------ PAGE EVENT desktop --------------------------------------*/
+    .flex {
+            justify-content: space-around;
         }
 
 }

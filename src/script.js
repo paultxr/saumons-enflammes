@@ -1,17 +1,18 @@
+
 window.onscroll = function () {
-  console.log('scroll');
+
     if (document.documentElement.scrollTop > 100) {
+      console.log('scroll 100');
         document.getElementById("navbar").style.background="#63868c";
         document.getElementById("navbar-right").style.paddingTop = "0px";      
         document.getElementById("logo").style.display = "flex";
         document.getElementById("navbar-right").style.color = "#63868c";
         document.getElementById("navbar-right").style.display = "flex";
-        document.getElementById("navbar-right").style.alignItems = "alignItems";
-        
-        
-        
+        document.getElementById("navbar-right").style.alignItems = "alignItems";  
     }
     else {
+      console.log('scroll else');
+        document.getElementById("navbar-right").style.paddingTop = "130px";    
         document.getElementById("navbar").style.background = "transparent";  
         document.getElementById("logo").style.display = "flex";
         document.getElementById("logo").style.alignItems = "center";
@@ -86,20 +87,9 @@ for (let i = 0; i < articles.length; i++) {
 
 
 
-const navLinks = document.querySelectorAll("nav ul li a"),
-  url = window.location.href;
-
-if (url.includes("home.php")) {
-  navLinks[1].classList.add("active");
-} else if (url.includes("team.php")) {
-  navLinks[2].classList.add("active");
-} else if (url.includes("stream.php")) {
-  navLinks[3].classList.add("active");
-} else if (url.includes("event.php")) {
-  navLinks[4].classList.add("active");
-} else if (url.includes("shop.php")) {
-  navLinks[5].classList.add("active");
-} else {
-  navLinks[0].classList.add("active");
+for (var i = 0; i < document.links.length; i++) {
+  if (document.links[i].href == document.URL) {
+      document.links[i].className = 'active';
+  }
 }
 

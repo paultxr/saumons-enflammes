@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
     <meta charset="UTF-8">
@@ -88,3 +87,4 @@
     <script src="../src/script.js"></script>
 </body>
 </html>
+

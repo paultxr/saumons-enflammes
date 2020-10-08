@@ -11,8 +11,8 @@
                 <li><a href="home.php">Accueil</a></li>
                 <li><a href="team.php">Notre Equipe</a></li>
                 <li><a href="stream.php">En Direct</a></li>
-                <li><a href="#">Évènements</a></li>
-                <li><a href="shop.php">Boutique</a></li>            
+                <li><a href="event.php">Évènements</a></li>
+                <li><a href="shop.php">Boutique</a></li>  
             </ul>
         </nav>
     </header>
