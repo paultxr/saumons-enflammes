@@ -5,6 +5,9 @@
   --main-font: 'Bangers';
   --third-color: black;
   --secondary-font: 'Quicksand';
+
+  --margin-top-bann: 10px;
+  --margin-bot-bann: 70px;
 }
 
 body {
@@ -28,17 +31,19 @@ p{
 .banner-event {
 	  background: url('../src/img/montrealcompet.jpg');
 	  background-size: cover;
-    border-radius: 5px;
     background-attachment: fixed;	
     background-position: center;	
     background-repeat: no-repeat;	
+    margin-bottom: var(--margin-bot-bann);
 }
+
 
 .banner {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-  height: 400px;
+  height: 500px;
+  border-radius: 6px;
 }
 
 .title-background {
@@ -112,6 +117,7 @@ p{
   text-align: justify;
 }
 
+/* MEDIA */
 
 @media only screen and (max-width: 376px) {
     .flex {

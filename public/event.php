@@ -16,7 +16,7 @@
 
     <section class="banner-event">
         <div class="banner" alt="the team">
-            <div class=title-background><h1>Evènements et compétitions</h1></div>
+            <div class=title-background><h1>Évènements et compétitions</h1></div>
 
         </div>
 
