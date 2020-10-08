@@ -8,7 +8,7 @@
         </label>    
         <nav id="navbar-right">    
             <ul>
-                <li><a class="active" href="home.php">Accueil</a></li>
+                <li><a href="home.php">Accueil</a></li>
                 <li><a href="team.php">Notre Equipe</a></li>
                 <li><a href="stream.php">En Direct</a></li>
                 <li><a href="#">Évènements</a></li>
@@ -16,4 +16,4 @@
             </ul>
         </nav>
     </header>
-    
+   

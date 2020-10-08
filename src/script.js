@@ -1,3 +1,26 @@
+window.onscroll = function () {
+  console.log('scroll');
+    if (document.documentElement.scrollTop > 100) {
+        document.getElementById("navbar").style.background="#63868c";
+        document.getElementById("navbar-right").style.paddingTop = "0px";      
+        document.getElementById("logo").style.display = "flex";
+        document.getElementById("navbar-right").style.color = "#63868c";
+        document.getElementById("navbar-right").style.display = "flex";
+        document.getElementById("navbar-right").style.alignItems = "alignItems";
+        
+        
+        
+    }
+    else {
+        document.getElementById("navbar").style.background = "transparent";  
+        document.getElementById("logo").style.display = "flex";
+        document.getElementById("logo").style.alignItems = "center";
+        document.getElementById("navbar-right").style.alignItems = "center";
+    }
+  
+  
+  }
+
 const cards = document.querySelector(".cards");
 
 const articles = [
@@ -19,6 +42,9 @@ const articles = [
 ];
 
 function createCard(title, imageUrl, linkUrl) {
+  if(!cards) {
+    return
+  }
   const card = document.createElement("div");
   card.classList.add("card");
   cards.appendChild(card);
@@ -58,25 +84,22 @@ for (let i = 0; i < articles.length; i++) {
 }
 
 
-window.onscroll = function () {
-
-  if (document.documentElement.scrollTop > 100) {
-      document.getElementById("navbar").style.background="#63868c";
-      document.getElementById("navbar-right").style.paddingTop = "0px";      
-      document.getElementById("logo").style.display = "flex";
-      document.getElementById("navbar-right").style.color = "#63868c";
-      document.getElementById("navbar-right").style.display = flex;
-      document.getElementById("navbar-right").style.alignItems = alignItems;
-      
-      
-      
-  }
-  else {
-      document.getElementById("navbar").style.background = "transparent";  
-      document.getElementById("logo").style.display = "flex";
-      document.getElementById("logo").style.alignItems = "center";
-      document.getElementById("navbar-right").style.alignItems = "center";
-  }
 
 
+const navLinks = document.querySelectorAll("nav ul li a"),
+  url = window.location.href;
+
+if (url.includes("home.php")) {
+  navLinks[1].classList.add("active");
+} else if (url.includes("team.php")) {
+  navLinks[2].classList.add("active");
+} else if (url.includes("stream.php")) {
+  navLinks[3].classList.add("active");
+} else if (url.includes("event.php")) {
+  navLinks[4].classList.add("active");
+} else if (url.includes("shop.php")) {
+  navLinks[5].classList.add("active");
+} else {
+  navLinks[0].classList.add("active");
 }
+
