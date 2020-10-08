@@ -12,9 +12,7 @@
     text-align: center;
   }
 
-
-
-  .title-background {
+.title-background {
     color: rgba(150, 49, 49, 0.5);
     letter-spacing: 50px;
     background-color: rgba(24, 24, 24, 0.8);
@@ -22,11 +20,10 @@
 
 
 
-  }
+}
 
-  
-  
-  .parallax {    /* The image used */
+
+.parallax {    /* The image used */
     background-image: url("../src/img/montrealcompet.jpg");    /* Set a specific height */
     height: 400px;    /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -35,21 +32,22 @@
     background-size: cover;    display: flex;
     justify-content: center;
     align-items: center;
-  }
+}
 
- .cardEvent {
+.cardEvent {
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
+    /*justify-content: space-around;*/
+    flex-direction: row;
+    
+}
 .cardArticle {
     border-radius: 10px;
-    width: 200px;
+    width: 400px;
     margin: 20px;
     display: flex;
     flex-direction: line;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  }
+}
 .cardPic {
     border-radius: 10px 10px 0 0;
     background-size: cover;
@@ -57,17 +55,27 @@
     background-image: url(../src/img/montrealcompet.jpg);
     height: 400px;
     width: 100%;
-  }
+}
+
+.cardPicbis {
+  border-radius: 10px 10px 0 0;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../src/img/Zaou_1.jpg);
+  height: 400px;
+  width: 100%;
+}
+
 .cardBodybis {
     padding: 10px 20px;
-  }
+}
 .cardTitlebis {
     margin: 10px 0px;
     text-align: center;
     font-size: 15px;
     color: var(--third-color);
     font-family: var(--secondary-font);
-  }
+}
 .cardButtonbis {
     border: none;
     border-radius: 10px;
@@ -78,4 +86,5 @@
 
 .cardTexte {
   font-size: 20px;
+  text-align: justify ;
 }
