@@ -1,4 +1,5 @@
 
+
 /*<<<<<<< HEAD*/
 @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
@@ -8,7 +9,7 @@
     --main-color: #FA8072;
     --secondary-color: #CD5C5C;
     --third-color: black;
-    --fond-btn: lightblue;
+    --fond-btn: rgb(151, 174, 199);
     --title-articleshop: #303030;
 
     --main-font: 'Bangers';
@@ -35,6 +36,9 @@ p {
     font-size: 1em;
 }
 
+.h1{
+    display: none;
+}
 
 /*
 $$\   $$\ $$$$$$$$\  $$$$$$\  $$$$$$$\  $$$$$$$$\ $$$$$$$\
@@ -60,7 +64,7 @@ $$ |  $$ |$$$$$$$$\ $$ |  $$ |$$$$$$$  |$$$$$$$$\ $$ |  $$ |
     body{
     margin: 0;
     font-family:var(--main-font);
-    background-color: white;
+    
 }
 
 
@@ -83,6 +87,7 @@ nav ul{
     list-style: none;
     background: #FFFFFF;
     margin-top: 0px;
+    color:rgb(230, 69, 69);
 
 }
 
@@ -92,24 +97,28 @@ nav li{
     margin-left: 40px;
 }
 
-nav a{
+nav ul a{
     text-decoration: none;
-    color:rgb(230, 69, 69);
+    color:var(--main-color);
     font-size: 30px;
     text-shadow: 2px 2px 4px rgba(31, 31, 31, 0.658);
     text-transform: uppercase;
     margin-top: 20px;
+    color:rgb(230, 69, 69);
 }
 
 nav a:hover{
     color: #15C6E6;
-    transition: ease-in 0.1s;
-}
-    .toggler:checked ~ nav ul{
+    transition: ease-in 0.1s;}
+    
+.toggler:checked ~ nav ul{
+    color: #FFFFFF;
     transition: all 0.3s;
     left:-9%;
 }
-i{
+
+
+.ifa{
     color: #FFFFFF;
 }
 
@@ -195,7 +204,7 @@ $$       |   $$$/    $$       |$$ | $$$ |   $$ |
 $$$$$$$$/     $/     $$$$$$$$/ $$/   $$/    $$/    
 */        
 .banner-event {
-    background: url('../src/img/montrealcompet.jpg');
+    background: url('https://jeuvideo.afjv.com/press_1809/180918_fishing_5.jpg');
     background-size: cover;
     background-attachment: fixed;	
     background-position: center;	
@@ -287,7 +296,14 @@ $$$$$$$  |$$$$$$\ $$ |  $$ |$$$$$$$$\ \$$$$$$  |  $$ |
 \_______/ \______|\__|  \__|\________| \______/   \__|
 */
 
-
+#intro-stream {
+    text-align: center;
+    margin: 70px 20px 70px 20px;
+}
+#carp-icon {
+    height: 25px;
+    width: 25px;
+}
 #banner-stream {
 	background: url('../src/img/banner-stream2.png');
 	background-size: cover;
@@ -311,23 +327,21 @@ $$$$$$$  |$$$$$$\ $$ |  $$ |$$$$$$$$\ \$$$$$$  |  $$ |
 	padding: 10px 20px 10px 20px;
 	background-color: rgba(24,24,24,0.8);
 	color: var(--main-color);
-    font-size: 2em;
+    font-size: 4em;
     text-align: center;
 }
 
-#intro-stream {
-    text-align: center;
-    margin: 70px 20px 70px 20px;
-}
 
-
-#carp-icon {
-    height: 25px;
-    width: 25px;
+.toggler{
+    display: none;
 }
+.logo{
+    display: flex;
+    margin-left: 16px;}
 
 #twitch-embed {
     text-align: center;
+    margin-bottom : 20px;
 }
 
 /* ------------------------------- footer style -----------------------------*/
@@ -338,76 +352,61 @@ footer{
     text-align: center;
     font-family:var(--main-font);
 }
-
 footer div{
     padding-bottom: 2%;
 }
-
 .footerPart{
     background-color: #303030;
     padding-top: 1em;
     padding-bottom: 1.6em;
 }
-
 .footerReseaux{
     display: flex;
     width: 100%;
     background-color: #CD5C5C;
     padding-top: 1em;
 }
-
 .footerReseaux div{
     width: 33%;
     margin-right: 0;
 }
-
 .footerReseaux div a i{
     text-decoration: none;
     color:white;
     font-size: 2em;
 }
-
 .footerReseaux div a i:hover{
     color: #303030;
 }
-
 .footerContact{
     background-color: #CD5C5C;
 }
-
 .footerContact a{
     text-decoration: none;
     color:white;
 }
-
 .footerContact a:hover{
     color: #303030;
 }
-
 .footerPart p{
     font-size: 1.3em;
     font-family:var(--main-font);
 }
-
 .footerPart ul{
     padding:0;
 }
-
 .footerPart p, .footerPart ul li{
     margin: 2%;
     list-style-type: none ;
     color:white;
 }
-
 .footerPart ul li a{
     text-decoration: none;
     color:white;
 }
-
 .footerPart ul li a:hover{
     color: #FA8072 ;
 }
-
 .footerPart p,.footerPart ul li, .footerContact .versContact{
     font-weight: bold;
 }
@@ -424,7 +423,6 @@ $$ |      $$ |  $$ |$$ \$$$$ |   $$ |   $$  __$$ |$$ |        $$ |
 $$ |  $$\ $$ |  $$ |$$ |\$$$ |   $$ |   $$ |  $$ |$$ |  $$\   $$ |
 \$$$$$$  | $$$$$$  |$$ | \$$ |   $$ |   $$ |  $$ |\$$$$$$  |  $$ |
 \______/  \______/ \__|  \__|   \__|   \__|  \__| \______/   \__|
-
 */
 
 .contactForm form{
@@ -502,8 +500,7 @@ EEEEEEEEEEEEEEEEEEEEEE     QQQQQQQQ::::QQ      UUUUUUUUU      IIIIIIIIIIPPPPPPPP
 
 
 /*-------------------------- mobile team ---------------------------------*/
-/*@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');*/
+
 
 
 
@@ -682,6 +679,7 @@ display: grid;
 grid-template-columns: repeat(1, 1fr);
 grid-gap: 15px;
 grid-auto-rows: minmax(100px, auto);
+margin-bottom :20px;
 }
 
 
@@ -779,10 +777,8 @@ grid-auto-rows: minmax(100px, auto);
         background-size: cover;        display: flex;
         justify-content: center;
         align-items: center;
-    }
+        margin-right: 30px;
 
-    .contactForm form .button button{
-        font-size: 2em;
     }
 
 
@@ -828,7 +824,6 @@ grid-auto-rows: minmax(100px, auto);
         grid-template-columns: repeat(4, 1fr);
         padding-left: 10%;
         padding-right: 10%;
-        margin-bottom: 2em;
         }
 /*------------------------------------------ PAGE EVENT desktop --------------------------------------*/
     .flex {

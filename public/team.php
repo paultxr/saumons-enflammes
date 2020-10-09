@@ -63,14 +63,14 @@
         <section class="mapping">
 
             <h2>Les coins de pêche que l'on préfère</h2>
-            <p>Clique pour voir le détail des lacs ! Carpes, truites, brochets, ils sont y sont tous ! </p>
+            <p>Clique pour voir le détail des lacs ! Carpes, truites, brochets, ils y sont tous ! </p>
             <div class="map"><iframe src="https://www.google.com/maps/d/embed?mid=1Hr09jyH42qxuyb1vpmlcEhXUoFEvW_Lj" width="99%" height="480"></iframe></div>
     
         </section>
 
         <div class="join-us">
             <h2>Nous rejoindre</h2>
-            <p>On recherche un quatrième joueur ou joueuse pour rejoinre l'équipe. <br> Mentalité compétitive et fortes connaissances en matière de pêche electronique sont recquises !</p>
+            <p>On recherche un quatrième joueur ou joueuse pour rejoindre l'équipe. <br> Mentalité compétitive et fortes connaissances en matière de pêche électronique sont requises !</p>
                             
                 <form action="" method="get" class="form-example">
                     <div class="user-name">

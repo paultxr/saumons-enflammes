@@ -55,7 +55,7 @@
     </section>
         <div class="join-us">
             <h2>Nous rejoindre</h2>
-            <p>On recherche un quatrième joueur ou joueuse pour rejoinre l'équipe. <br> Mentalité compétitive et fortes connaissances en matière de pêche electronique sont recquises !</p>
+            <p>On recherche un quatrième joueur ou joueuse pour rejoindre l'équipe. <br> Mentalité compétitive et fortes connaissances en matière de pêche électronique sont requises !</p>
                             
                 <form action="" method="get" class="form-example">
                     <div class="user-name">
