@@ -83,6 +83,24 @@
     </form>          
 
 </section>
+<div class="join-us">
+            <h2>Nous rejoindre</h2>
+            <p>On recherche un quatrième joueur ou joueuse pour rejoinre l'équipe. <br> Mentalité compétitive et fortes connaissances en matière de pêche electronique sont recquises !</p>
+                            
+                <form action="" method="get" class="form-example">
+                    <div class="user-name">
+                      <label for="name">Ton nom: </label><br>
+                      <input type="text" name="name" id="name" required>
+                    </div>
+                    <div class="user-email">
+                      <label for="email">Ton mail: </label><br>
+                      <input type="email" name="email" id="email" required>
+                    </div>
+                      <input type="submit" value="Inscris-toi batard !" class="submit-button">
+                    </div>
+                  </form>
+
+</div>
     <?php include('footer.php')?>
     <script src="../src/script.js"></script>
 </body>
