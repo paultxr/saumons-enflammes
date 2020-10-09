@@ -2,7 +2,6 @@
 window.onscroll = function () {
 
     if (document.documentElement.scrollTop > 100) {
-      console.log('scroll 100');
         document.getElementById("navbar").style.background="#63868c";
         document.getElementById("navbar-right").style.paddingTop = "0px";      
         document.getElementById("logo").style.display = "flex";
@@ -10,14 +9,14 @@ window.onscroll = function () {
         document.getElementById("navbar-right").style.display = "flex";
         document.getElementById("navbar-right").style.alignItems = "alignItems";  
     }
-    else {
-      console.log('scroll else');
-        document.getElementById("navbar-right").style.paddingTop = "130px";    
-        document.getElementById("navbar").style.background = "transparent";  
-        document.getElementById("logo").style.display = "flex";
-        document.getElementById("logo").style.alignItems = "center";
-        document.getElementById("navbar-right").style.alignItems = "center";
-    }
+    else if (document.documentElement.scrollTop < 200 ){
+      document.getElementById("navbar").style.background="none";
+      document.getElementById("navbar").style.paddingTop = "0";
+      document.getElementById("navul").style.paddingTop = "200";
+      document.getElementById("logo").style.display = "flex";
+      document.getElementById("navbar-right").style.color = "#63868C";
+      document.getElementById("navbar-right").style.display = "flex";
+      document.getElementById("navbar-right").style.alignItems = "alignItems";    }
   
   
   }

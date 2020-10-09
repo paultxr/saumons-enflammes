@@ -103,11 +103,15 @@ nav a{
 
 nav a:hover{
     color: #15C6E6;
-    transition: ease-in 0.1s;}.toggler:checked ~ nav ul{
+    transition: ease-in 0.1s;
+}
+    .toggler:checked ~ nav ul{
     transition: all 0.3s;
     left:-9%;
 }
-
+i{
+    color: #FFFFFF;
+}
 
 #toggler:checked ~ .menu-btn i:before{
     content:"\f00d";
