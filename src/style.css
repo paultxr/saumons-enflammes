@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-
-
-/*<<<<<<< HEAD*/
 @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@900&display=swap');
@@ -119,11 +115,7 @@ nav a:hover{
 }
 
 
-<<<<<<< HEAD
-i{
-=======
 .ifa{
->>>>>>> master
     color: #FFFFFF;
 }
 
@@ -332,52 +324,18 @@ $$$$$$$  |$$$$$$\ $$ |  $$ |$$$$$$$$\ \$$$$$$  |  $$ |
 	padding: 10px 20px 10px 20px;
 	background-color: rgba(24,24,24,0.8);
 	color: var(--main-color);
-<<<<<<< HEAD
-    font-size: 2em;
-    text-align: center;
-}
-=======
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@900&display=swap');
-*{
-    box-sizing: border-box;
-    
-=======
     font-size: 4em;
     text-align: center;
->>>>>>> master
 }
 
-body{
-    margin: 0;
-    font-family: 'Poppins', sans-serif;
-}
-header{
-    text-align: center;
-    position: fixed;
-    width: 100%;
-    height: 120px;
-    z-index: 100;
-    padding-bottom: 100px;
->>>>>>> header
 
-<<<<<<< HEAD
-}
-.toggler{
-    display: none;
-}
-.logo{
-    display: flex;
-    margin-left: 16px;
-=======
 .toggler{
     display: none;
 }
 .logo{
     display: flex;
     margin-left: 16px;}
->>>>>>> master
 
-<<<<<<< HEAD
 #twitch-embed {
     text-align: center;
     margin-bottom : 20px;
@@ -404,38 +362,13 @@ footer div{
     width: 100%;
     background-color: #CD5C5C;
     padding-top: 1em;
-=======
 }
-<<<<<<< HEAD
-
-nav ul{
-    position: fixed;
-    width: 100%;
-    height: 100vh;
-    padding: 16px;
-    left :-100%;
-    transition:all 0.5s;
-    list-style: none;
-    background: #ffffff;
-    margin-top: 10px;
->>>>>>> header
-}
-
-nav li{
-    margin-bottom: 16px;
-    margin-left: 16px;
-}
-
-nav a{
-=======
 .footerReseaux div{
     width: 33%;
     margin-right: 0;
 }
 .footerReseaux div a i{
->>>>>>> master
     text-decoration: none;
-<<<<<<< HEAD
     color:white;
     font-size: 2em;
 }
@@ -471,36 +404,13 @@ nav a{
 .footerPart ul li a:hover{
     color: #FA8072 ;
 }
-<<<<<<< HEAD
-=======
-    color:rgb(230, 69, 69);
-    font-size: 30px;
-    text-shadow: 2px 2px 4px rgba(31, 31, 31, 0.658);
-    text-transform: uppercase;
-    margin-top: 20px;
-}
-
-nav a:hover,
-nav a.active{
-    color: #15c6e6;
-    transition: ease-in 0.1s;
-    
-=======
 .footerPart p,.footerPart ul li, .footerContact .versContact{
     font-weight: bold;
->>>>>>> master
+}
+.footerContact .versMention{
+    font-size: small;
 }
 
-.toggler:checked ~ nav ul{
-    transition: all 0.3s;
-    left:0;
->>>>>>> header
-
-}
-#toggler:checked ~ .menu-btn i:before{
-    content:"\f00d";}
-
-<<<<<<< HEAD
 /*
 $$$$$$\   $$$$$$\  $$\   $$\ $$$$$$$$\  $$$$$$\   $$$$$$\ $$$$$$$$\
 $$  __$$\ $$  __$$\ $$$\  $$ |\__$$  __|$$  __$$\ $$  __$$\\__$$  __|
@@ -810,30 +720,30 @@ margin-bottom :20px;
     }
     .footerPart ul li{
         width: 60%;
-=======
-.menu-btn{
-    position : absolute;
-    font-size: 35px;
-    top: 0;
-    right:0;
-    margin-right:  16px;
-    height: 100%;
-    display: flex;
-    align-items: center;
-}
-
-
-@media screen and (min-width : 376px){
-    .menu-btn{
-        display: none;
->>>>>>> header
     }
-    header{
-        display: grid;
-        grid-template-columns: 1fr auto minmax(380px, 3fr);
+    .footerReseaux{
+        width: 25%;
+        padding-left: 4em;
+        padding-top: 3.6em;
+        background-color: transparent;
+    }
+    .footerContact{
+        width: 33%;
+        padding-top: 3.4em;
+        background-color: transparent;
+    }
+    .footerContact .versContact{
+        padding-bottom: 0.2em;
+        font-size: 1.5em;
+    }
+    .footerReseaux .reseauSocial{
+        width: 20%;
+    }
+    .footerReseaux div a i{
+        font-size: 3em;
     }
 
-<<<<<<< HEAD
+
 /*----------------------------------- Contact Desktop --------------------------------------*/
 
     .contactForm{
@@ -863,21 +773,10 @@ margin-bottom :20px;
         background-repeat: no-repeat;
         background-size: cover;        display: flex;
         justify-content: center;
-<<<<<<< HEAD
-=======
-    }
-    nav{
-        display: flex;
-        grid-column: 3/4;
-        justify-content: flex-end;
->>>>>>> header
-=======
->>>>>>> master
         align-items: center;
         margin-right: 30px;
 
     }
-<<<<<<< HEAD
 
 
 /*---------------------------- team desktop ----------------------------*/
@@ -928,14 +827,4 @@ margin-bottom :20px;
             justify-content: space-around;
         }
 
-=======
-    nav ul{
-        all: unset;
-        list-style: none;
-        display: flex;
-        flex-wrap: wrap;
-        
-        
-    }
->>>>>>> header
 }
