@@ -831,6 +831,7 @@ margin-bottom :20px;
     header{
         display: grid;
         grid-template-columns: 1fr auto minmax(380px, 3fr);
+    }
 
 <<<<<<< HEAD
 /*----------------------------------- Contact Desktop --------------------------------------*/
