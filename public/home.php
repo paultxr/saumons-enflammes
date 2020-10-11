@@ -11,11 +11,14 @@
     <title>Fishing Sim World Pro Tour</title>
 </head>
 <body>
+
 <section id="nav-bar-top">
         <?php include('header.php')?>
 </section>
     <section class="video-home">
+        
         <video autoplay loop muted class="video-background">
+            <h1 id="h1"Les Saumons enflammés></h1>
             <source src="../src/img/Video.mp4" type="video/mp4">
             
             <!-- Pour afficher la vidéo dans tous les navigateurs-->
@@ -62,7 +65,7 @@
 
     <div class="join-us">
             <h2>Nous rejoindre</h2>
-            <p>On recherche un quatrième joueur ou joueuse pour rejoinre l'équipe. <br> Mentalité compétitive et fortes connaissances en matière de pêche electronique sont recquises !</p>
+            <p>On recherche un quatrième joueur ou joueuse pour rejoindre l'équipe. <br> Mentalité compétitive et fortes connaissances en matière de pêche électronique sont requises !</p>
                             
                 <form action="" method="get" class="form-example">
                     <div class="user-name">

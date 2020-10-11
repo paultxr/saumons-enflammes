@@ -1,13 +1,12 @@
 
-<body>
 <footer>
     <div class="footerPart">
         <p>Nos Partenaires </p>
         </br>
         <ul>
-            <li><a href="#">Croustibat</a></li>
-            <li><a href="#">Capitaine Iglo</a></li>
-            <li><a href="#">Pêche Océan</a></li>
+            <li><a href="https://www.findus.fr/produits/poisson-pane/batonnets-findus-et-croustibat" target="_BLANK">Croustibat</a></li>
+            <li><a href="https://www.iglo.be/fr-be/simplement-delicieux" target="_BLANK">Capitaine Iglo</a></li>
+            <li><a href="https://fr.openfoodfacts.org/marque/peche-ocean/marque/marque-repere" target="_BLANK">Pêche Océan</a></li>
         </ul>
     </div>
     <div class="footerReseaux">
@@ -31,5 +30,3 @@
 
     </div>
 </footer>
-</body>
-</html>

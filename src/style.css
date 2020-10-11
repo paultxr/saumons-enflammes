@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 
+
 /*<<<<<<< HEAD*/
 @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
@@ -36,6 +37,9 @@ p {
     font-size: 1em;
 }
 
+.h1{
+    display: none;
+}
 
 /*
 $$\   $$\ $$$$$$$$\  $$$$$$\  $$$$$$$\  $$$$$$$$\ $$$$$$$\
@@ -61,7 +65,7 @@ $$ |  $$ |$$$$$$$$\ $$ |  $$ |$$$$$$$  |$$$$$$$$\ $$ |  $$ |
     body{
     margin: 0;
     font-family:var(--main-font);
-    background-color: white;
+    
 }
 
 
@@ -84,6 +88,7 @@ nav ul{
     list-style: none;
     background: #FFFFFF;
     margin-top: 0px;
+    color:rgb(230, 69, 69);
 
 }
 
@@ -93,13 +98,14 @@ nav li{
     margin-left: 40px;
 }
 
-nav a{
+nav ul a{
     text-decoration: none;
-    color:rgb(230, 69, 69);
+    color:var(--main-color);
     font-size: 30px;
     text-shadow: 2px 2px 4px rgba(31, 31, 31, 0.658);
     text-transform: uppercase;
     margin-top: 20px;
+    color:rgb(230, 69, 69);
 }
 
 nav a:hover{
@@ -113,7 +119,11 @@ nav a:hover{
 }
 
 
+<<<<<<< HEAD
 i{
+=======
+.ifa{
+>>>>>>> master
     color: #FFFFFF;
 }
 
@@ -199,7 +209,7 @@ $$       |   $$$/    $$       |$$ | $$$ |   $$ |
 $$$$$$$$/     $/     $$$$$$$$/ $$/   $$/    $$/    
 */        
 .banner-event {
-    background: url('../src/img/montrealcompet.jpg');
+    background: url('https://jeuvideo.afjv.com/press_1809/180918_fishing_5.jpg');
     background-size: cover;
     background-attachment: fixed;	
     background-position: center;	
@@ -291,7 +301,14 @@ $$$$$$$  |$$$$$$\ $$ |  $$ |$$$$$$$$\ \$$$$$$  |  $$ |
 \_______/ \______|\__|  \__|\________| \______/   \__|
 */
 
-
+#intro-stream {
+    text-align: center;
+    margin: 70px 20px 70px 20px;
+}
+#carp-icon {
+    height: 25px;
+    width: 25px;
+}
 #banner-stream {
 	background: url('../src/img/banner-stream2.png');
 	background-size: cover;
@@ -315,6 +332,7 @@ $$$$$$$  |$$$$$$\ $$ |  $$ |$$$$$$$$\ \$$$$$$  |  $$ |
 	padding: 10px 20px 10px 20px;
 	background-color: rgba(24,24,24,0.8);
 	color: var(--main-color);
+<<<<<<< HEAD
     font-size: 2em;
     text-align: center;
 }
@@ -323,6 +341,10 @@ $$$$$$$  |$$$$$$\ $$ |  $$ |$$$$$$$$\ \$$$$$$  |  $$ |
 *{
     box-sizing: border-box;
     
+=======
+    font-size: 4em;
+    text-align: center;
+>>>>>>> master
 }
 
 body{
@@ -338,6 +360,7 @@ header{
     padding-bottom: 100px;
 >>>>>>> header
 
+<<<<<<< HEAD
 }
 .toggler{
     display: none;
@@ -345,10 +368,19 @@ header{
 .logo{
     display: flex;
     margin-left: 16px;
+=======
+.toggler{
+    display: none;
+}
+.logo{
+    display: flex;
+    margin-left: 16px;}
+>>>>>>> master
 
 <<<<<<< HEAD
 #twitch-embed {
     text-align: center;
+    margin-bottom : 20px;
 }
 
 /* ------------------------------- footer style -----------------------------*/
@@ -359,17 +391,14 @@ footer{
     text-align: center;
     font-family:var(--main-font);
 }
-
 footer div{
     padding-bottom: 2%;
 }
-
 .footerPart{
     background-color: #303030;
     padding-top: 1em;
     padding-bottom: 1.6em;
 }
-
 .footerReseaux{
     display: flex;
     width: 100%;
@@ -377,6 +406,7 @@ footer div{
     padding-top: 1em;
 =======
 }
+<<<<<<< HEAD
 
 nav ul{
     position: fixed;
@@ -397,52 +427,51 @@ nav li{
 }
 
 nav a{
+=======
+.footerReseaux div{
+    width: 33%;
+    margin-right: 0;
+}
+.footerReseaux div a i{
+>>>>>>> master
     text-decoration: none;
 <<<<<<< HEAD
     color:white;
     font-size: 2em;
 }
-
 .footerReseaux div a i:hover{
     color: #303030;
 }
-
 .footerContact{
     background-color: #CD5C5C;
 }
-
 .footerContact a{
     text-decoration: none;
     color:white;
 }
-
 .footerContact a:hover{
     color: #303030;
 }
-
 .footerPart p{
     font-size: 1.3em;
     font-family:var(--main-font);
 }
-
 .footerPart ul{
     padding:0;
 }
-
 .footerPart p, .footerPart ul li{
     margin: 2%;
     list-style-type: none ;
     color:white;
 }
-
 .footerPart ul li a{
     text-decoration: none;
     color:white;
 }
-
 .footerPart ul li a:hover{
     color: #FA8072 ;
 }
+<<<<<<< HEAD
 =======
     color:rgb(230, 69, 69);
     font-size: 30px;
@@ -456,6 +485,10 @@ nav a.active{
     color: #15c6e6;
     transition: ease-in 0.1s;
     
+=======
+.footerPart p,.footerPart ul li, .footerContact .versContact{
+    font-weight: bold;
+>>>>>>> master
 }
 
 .toggler:checked ~ nav ul{
@@ -477,7 +510,6 @@ $$ |      $$ |  $$ |$$ \$$$$ |   $$ |   $$  __$$ |$$ |        $$ |
 $$ |  $$\ $$ |  $$ |$$ |\$$$ |   $$ |   $$ |  $$ |$$ |  $$\   $$ |
 \$$$$$$  | $$$$$$  |$$ | \$$ |   $$ |   $$ |  $$ |\$$$$$$  |  $$ |
 \______/  \______/ \__|  \__|   \__|   \__|  \__| \______/   \__|
-
 */
 
 .contactForm form{
@@ -555,8 +587,7 @@ EEEEEEEEEEEEEEEEEEEEEE     QQQQQQQQ::::QQ      UUUUUUUUU      IIIIIIIIIIPPPPPPPP
 
 
 /*-------------------------- mobile team ---------------------------------*/
-/*@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');*/
+
 
 
 
@@ -735,6 +766,7 @@ display: grid;
 grid-template-columns: repeat(1, 1fr);
 grid-gap: 15px;
 grid-auto-rows: minmax(100px, auto);
+margin-bottom :20px;
 }
 
 
@@ -830,6 +862,7 @@ grid-auto-rows: minmax(100px, auto);
         background-repeat: no-repeat;
         background-size: cover;        display: flex;
         justify-content: center;
+<<<<<<< HEAD
 =======
     }
     nav{
@@ -837,6 +870,8 @@ grid-auto-rows: minmax(100px, auto);
         grid-column: 3/4;
         justify-content: flex-end;
 >>>>>>> header
+=======
+>>>>>>> master
         align-items: center;
         margin-right: 30px;
 

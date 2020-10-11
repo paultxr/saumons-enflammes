@@ -1,11 +1,17 @@
 
 window.onscroll = function () {
 
+<<<<<<< HEAD
     if (document.documentElement.scrollTop > 200 ) {
      
         document.getElementById("navbar").style.background="rgb(193, 205, 209)";
         document.getElementById("navbar").style.paddingTop = "0";  
         document.getElementById("navul").style.paddingTop = "200";          
+=======
+    if (document.documentElement.scrollTop > 100) {
+        document.getElementById("navbar").style.background="#63868c";
+        document.getElementById("navbar-right").style.paddingTop = "0px";      
+>>>>>>> master
         document.getElementById("logo").style.display = "flex";
         document.getElementById("navbar-right").style.color = "#63868c";
         document.getElementById("navbar-right").style.display = "flex";
@@ -13,6 +19,7 @@ window.onscroll = function () {
     }
     else if (document.documentElement.scrollTop < 200 ){
       document.getElementById("navbar").style.background="none";
+<<<<<<< HEAD
       document.getElementById("navbar").style.paddingTop = "0";  
       document.getElementById("navul").style.paddingTop = "200";          
       document.getElementById("logo").style.display = "flex";
@@ -21,6 +28,14 @@ window.onscroll = function () {
       document.getElementById("navbar-right").style.alignItems = "alignItems";  
         
     }
+=======
+      document.getElementById("navbar").style.paddingTop = "0";
+      document.getElementById("navul").style.paddingTop = "200";
+      document.getElementById("logo").style.display = "flex";
+      document.getElementById("navbar-right").style.color = "#63868C";
+      document.getElementById("navbar-right").style.display = "flex";
+      document.getElementById("navbar-right").style.alignItems = "alignItems";    }
+>>>>>>> master
   
   
   }
